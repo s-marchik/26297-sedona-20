@@ -5,9 +5,9 @@
     <title>HTML Academy: Седона</title>
 </head>
 <body class="page__body">
-  <header>
+  <header class="page-header">
     <a class="page-header__logo" href="index.html">
-      <img src="source/img/logotype-mobile.svg" width="102" height="84" alt="Cyti of Sedona">
+      <img src="source/img/logotype-mobile.svg" width="102" height="84" alt="City of Sedona">
     </a>
     <nav class="main-nav">
       <button class="main-nav__toggle" type="button">
@@ -40,8 +40,8 @@
     </nav>
   </header>
   <main class="page-main">
-    <h1 class="visually-hidden">Welcome to the gorgeous SEDONA"Because the Grand Canyon sucks"</h1>
-    <section class="welcome-main welcome">
+    <h1 class="visually-hidden">Welcome to the gorgeous SEDONA "Because the Grand Canyon sucks"</h1>
+    <section class="welcome">
       <img src="https://via.placeholder.com/282x214" width="282" height="214" alt="welcome to the gorgeus SEDONA">
     </section>
     <section class="main-intro main">
@@ -50,28 +50,28 @@
     </section>
     <section class="city">
       <div class="city__wrapper">
-        <h3 class="city__title title-item">Настоящий городок</h3>
+        <h3 class="city__number">Настоящий городок</h3>
         <span class="city__trait trait">№1</span>
-        <p class="sity__text text-item">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
+        <p class="city__text">Седона - не аттракцион для туристов, там течёт своя жизнь</p>
         </div>
-      <div class="city__img__wrapper">
-        <img src="https://via.placeholder.com/320x260" width="320" height="260" alt="foto Cyti of Sedona">
+      <div class="city__img-wrapper">
+        <img src="https://via.placeholder.com/320x260" width="320" height="260" alt="Настоящий городок">
       </div>
     </section>
     <section class="recreation">
       <ul class="recreation-list">
-        <li class=recreation-list__item>
-          <span class="icon-home recreation__icon"></span>
+        <li class="recreation-list__item">
+          <span class="recreation-list__icon recreation-list__icon--home"></span>
           <h3 class="recreation-list__title title-item">Жилье</h3>
           <p class="recreation-list__text text-item">Рекомендуем пожить в настоящем мотеле, всё как в кино!</p>
         </li>
-        <li class=recreation__item>
-          <span class="icon-food recreation__icon"></span>
+        <li class="recreation__item">
+          <span class="recreation-list__icon recreation-list__icon--food"></span>
           <h3 class="recreation-list__title title-item">Еда</h3>
           <p class="recreation-list__text text-item"></p>>Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
         </li>
         <li class=recreation__item>
-          <span class="icon-present recreation__icon"></span>
+          <span class="recreation-list__icon recreation-list__icon--present"></span>
           <h3 class="recreation-list__title title-item">Сувениры</h3>
           <p class="recreation-list__text text-item">Не только китайского, но и местного производства!</p>
         </li>
@@ -80,7 +80,7 @@
     <section class="canyon">
       <div class="canyon-img__wrapper">
         <img src="https://via.placeholder.com/320x260" width="320" height="260" alt="foto Devils Bridge">
-      </div>  
+      </div>
         <div class="canyon__wrapper">
           <h3 class="canyon__title title-item">Там есть мост дьявола</h3>
           <span class="canyon__trait trait">№2</span>
@@ -108,10 +108,10 @@
     </section>
     <section class="search">
       <div class="search__wrapper">
-      <h3 class=title__search>Заинтересовались?</h3>
-      <p class=text__search>Укажите предполагаемые даты поездки, 
+      <h3 class="search__title">Заинтересовались?</h3>
+      <p class="search__text">Укажите предполагаемые даты поездки,
         и мы покажем вам лучшие предложения гостиниц в седоне</p>
-        <a class="search-hotels">
+        <a class="search__hotels">
           ПОИСК ГОСТИНИЦЫ В СЕДОНЕ
         </a>
       </div>
@@ -122,10 +122,10 @@
       </div>
     </section>
   </main>
-  <footer class="main-footer page-footer">
+  <footer class="footer">
     <div class="footer__wrapper">
       <section class="footer-contacts">
-        <a class="footer-contacts__link"href="#">#visitSEDONA</a>
+        <a class="footer-contacts__link" href="#">#visitSEDONA</a>
       </section>
       <section class="footer-social">
         <ul class="footer-social__list">
@@ -154,12 +154,12 @@
       </section>
       <p class="footer-copyright">
         Разработано
-        <a class="footer-copyright__link" href="https://htmlacademy.ru">
+        <a class="footer-copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
           <svg width="27" height="35" viewBox="0 0 27 35" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M13.6 0H13.5L0 1.4V26.1L13.5 34.1L26.9 26.1V1.4L13.6 0ZM25 12.1L13.5 5.3V5.2H13.4L13.3 5.1V5.2L1.9 12.1V3.1L13.4 1.9L25 3.1V12.1ZM13.4 6.8L24.9 13.5L20.4 16.1L13.3 11.9V13.3L19.2 16.8L18.3 17.3L13.3 14.3V15.7L17.1 18L16.3 18.5L13.3 16.7V18.1L15.2 19.2L13.4 20.3L2 13.6L13.4 6.8ZM1.9 15.1L13.3 21.9V22.9L5.4 18.2V19.6L13.4 24.4V25.5L5.4 20.8V22.2L13.4 27L21.5 22.1V16.9L24.9 14.9V24.9L13.4 31.8L1.9 25V15.1Z" fill="black"/>
-          </svg> 
+          </svg>
         </a>
-      </p> 
+      </p>
     </div>
   </footer>
 </body>

@@ -20,12 +20,12 @@
             Главная
           </a>
         </li>
-        <li class="main-nav__item">
+        <li class="main-nav__item main-nav__item--active">
           <a>
             Фото и видео
           </a>
         </li>
-        <li class="main-nav__item main-nav__item--active">
+        <li class="main-nav__item">
           <a href="form.html">
             Форма отзыва
           </a>
@@ -84,6 +84,29 @@
         <p class="photo__like-number">254</p>
       </div>
     </section>
+    <section class="video-presentation">
+      <div class="video-presentation__wrapper">
+        <h2 class="presentation__title">Все еще сомневаетесь?</h2>
+        <p class="presentation__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+      </div>
+    </section>
+    <section class="video-gallery">
+    <div class="video-gallery__wrapper video-content">
+        <video class="video-content__clip" width="320" height="201" poster="https://via.placeholder.com/320x201">
+          <source src="#">
+        </video>
+      <div class="video-content__controls-wrapper">
+        <div class="video-content__carousel-wrappper">
+          <input class="video-content__carousel-progress" type="range" min="0" max="100" value="0" step="1">
+        </div>
+        <div class="video-content__controls">
+          <button class="video-content__button video-content__button--play"></button>
+          <button class="video-content__button video-content__button--subtitles"></button>
+          <button class="video-content__button video-content__button--fullscreen"></button>
+        </div>
+      </div>
+  </div>
+</section>
   </main>
   <footer class="footer">
     <div class="footer__wrapper">

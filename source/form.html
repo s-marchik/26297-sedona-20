@@ -43,29 +43,29 @@
     <h1 class="visually-hidden">Welcome to the gorgeous SEDONA! "Because the Grand Canyon sucks"</h1>
     <section class="welcome">
       <img src="/source/img/SEDONA.svg" width="229" height="39" alt="SEDONA">
-      <section class="form">
-        <form action="https://echo.htmlacademy.ru" method="post">
-          <h2 class="page-form__title">Оставьте свой отзыв</h2> 
-          <p class="page-form__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+    </section>
+        <h2 class="page-form__title">Оставьте свой отзыв</h2> 
+        <p class="page-form__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
+        <form class="form" action="https://echo.htmlacademy.ru" method="post">
           <div class="form__wrapper"> 
-            <fieldset class="form-name__list">
-              <legend>Представьтесь:</legend>
-                <label class="form-name__item"for="first-name">Имя*</label>
-                <input class="form-name__item" id="first-name" type="text" placeholder="Петр">
-                <label class="form-name__item"for="second-name">Фамилия*</label>
-                <input class="form-name__item" id="second-name" type="text" placeholder="Иванов">
-                <label class="form-name__item"for="last-name">Отчество:</label>
-                <input class="form-name__item" id="last-name" type="text" placeholder="Александрович">
+            <fieldset class="form__fieldset-name">
+              <legend class="form__legend-name">Представьтесь:</legend>
+                <label class="form__label-name" for="first-name">Имя*</label>
+                <input class="form__text-input" id="first-name" type="text" placeholder="Петр">
+                <label class="form__label-name" for="second-name">Фамилия*</label>
+                <input class="form__text-input" id="second-name" type="text" placeholder="Иванов">
+                <label class="form__label-name" for="last-name">Отчество:</label>
+                <input class="form__text-input" id="last-name" type="text" placeholder="Александрович">
             </fieldset>
-            <fieldset class="form-contact__list">
-              <legend>Представьтесь:</legend>
-                <label class="form-contact__item"for="contact-tel">Контактный телефон*:</label>
-                <input class="form-contact__item" id="contact-tel" type="tel" placeholder="Введите телефон">
-                <label class="form-contact__item"for="contact-email">Электронная почта*:</label>
-                <input class="form-contact__item" id="contact-email" type="email" placeholder="Введите e-mail">
+            <fieldset class="form__fieldset-contact">
+              <legend class="form__legend-contact">Контактная информация:</legend>
+                <label class="form__label-contact" for="contact-tel">Контактный телефон*:</label>
+                <input class="form__tel-input" id="contact-tel" type="tel" placeholder="Введите телефон">
+                <label class="form__label-contact" for="contact-email">Электронная почта*:</label>
+                <input class="form__email-input" id="contact-email" type="email" placeholder="Введите e-mail">
             </fieldset>
-            <fieldset class="form-impressio__list">
-              <legend>Ваше общее впечатление:</legend>
+            <fieldset class="form__radio">
+              <legend class="form__radio">Ваше общее впечатление:</legend>
                 <input class="visually-hidden form-impressio__item" type="radio" name="impression" id="filter-impression" checked>
                 <label for="filter-impressio">Скорее положительное</label>
                 <input class="visually-hidden form-impressio__item" type="radio" name="impression" id="filter-impression">

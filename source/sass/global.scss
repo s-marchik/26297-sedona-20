@@ -14,3 +14,10 @@ img {
     clip: rect(0 0 0 0);
     overflow: hidden;
   }
+  a {
+    text-decoration: none;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+  }

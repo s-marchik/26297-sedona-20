@@ -1,0 +1,9 @@
+.footer-social__list{
+  display: flex;
+  flex-direction: row;
+}
+.footer-social__item{
+  background-color:$basic-blue;
+  width: 46px;
+  height: 48px;
+}

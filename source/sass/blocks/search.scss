@@ -6,12 +6,15 @@
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
-  text-align: center;
+  padding-bottom: 30px;
+  margin: 0;
 }
 .search__text{
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
+  padding-bottom: 27px;
+  margin: 0;
 }
 .search__hotels{
   font-weight: bold;
@@ -19,4 +22,5 @@
   line-height: 26px;
   color:$basic-white;
   background-color:$basic-blue;
+  padding: 14px 32px 17px 32px;
 }

@@ -1,0 +1,15 @@
+.recreation-list{
+  background-color:$basic-white;
+}
+.city-property__wrapper--gray-bg{
+  background-color:$basic-grey;
+}
+.city-property__wrapper--gray-bg .city-property__title{
+  color:$basic-black;
+}
+.city-property__wrapper--gray-bg .city-property__number{
+  color:$basic-black;
+}
+.city-property__wrapper--gray-bg .city-property__number::before{
+  color:$basic-black;
+}

@@ -5,17 +5,18 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
-  text-align: center;
   text-transform: uppercase;
-  padding:0 18px 0 17px;
+  margin: 0;
+  padding-top: 32px;
 }
 .city-page__text{
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
   line-height: 26px;
-  text-align: center;
-  padding:0 18px 0 17px;
+  margin: 0;
+  padding-bottom:48px;
+  padding-top:44px;
 }
 .city-property__title{
   font-style: normal;
@@ -64,21 +65,6 @@
   padding-top: 23px;
   margin:0 auto;
   padding-bottom: 35px;
-}
-.recreation-list{
-  background-color:$basic-white;
-}
-.city-property__wrapper--gray-bg{
-  background-color:$basic-grey;  
-}
-.city-property__wrapper--gray-bg .city-property__title{
-  color:$basic-black;
-}
-.city-property__wrapper--gray-bg .city-property__number{
-  color:$basic-black;
-}
-.city-property__wrapper--gray-bg .city-property__number::before{
-  color:$basic-black;
 }
 
 

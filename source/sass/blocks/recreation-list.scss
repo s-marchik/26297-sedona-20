@@ -1,15 +1,47 @@
 .recreation-list{
   background-color:$basic-white;
+  padding-top:21px;
+  padding-bottom: 26px;
+  padding-right: 20px;
+  padding-left: 70px;
+  position: relative;
+  text-align: left;
 }
-.city-property__wrapper--gray-bg{
-  background-color:$basic-grey;
+.recreation-list__title{
+  font-size: 18px;
+  line-height: 26px;
+  margin-bottom: 21px;
+  padding: 0;
 }
-.city-property__wrapper--gray-bg .city-property__title{
-  color:$basic-black;
+.recreation-list__text{
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: normal;
+  margin:0;
+  padding: 0;
 }
-.city-property__wrapper--gray-bg .city-property__number{
-  color:$basic-black;
+.recreation-list__icon{
+  position: absolute;
+  content: "";
+  width: 40px;
+  height: 37px;
+  left: 21px;
+  background-repeat: no-repeat;
+
+  &--home{
+    background-image: url(../img/icon-house.svg);
+    background-size: 39px 37px;
+    top: 35px;
+  }
+  &--present{
+    background-image: url(../img/icon-gift.svg);
+    background-size: 32px 37px;
+    top: 160px;
+  }
+  &--food{
+    background-image: url(../img/icon-burger.svg);
+    background-size: 40px 35px;
+    top: 270px;
+  }
 }
-.city-property__wrapper--gray-bg .city-property__number::before{
-  color:$basic-black;
-}
+

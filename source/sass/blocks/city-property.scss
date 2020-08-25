@@ -62,20 +62,25 @@
 }
 .city-property__wrapper--gray-bg{
   background-color:$basic-grey;
+
+  & .city-property__title{
+    color:$basic-black;
+  }
+
+  & .city-property__number{
+    color:$basic-black;
+  }
+
+  & .city-property__text{
+    color:$basic-black;
+  }
 }
-.city-property__wrapper--gray-bg .city-property__title{
-  color:$basic-black;
-}
-.city-property__wrapper--gray-bg .city-property__number{
-  color:$basic-black;
-}
-.city-property__number--gray-bg::before{
-  color:$basic-black;
-}
-.city-property__wrapper--gray-bg .city-property__text{
-  color:$basic-black;
+.city-property__number--gray-bg::before,
+.city-property__number--gray-bg::after{
+  background-color:$basic-black;
 }
 .city-property__wrapper-img{
   padding: 0;
-  margin: 0
+  margin: 0;
+  line-height:0;
 }

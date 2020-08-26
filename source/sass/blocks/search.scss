@@ -1,8 +1,9 @@
-.search{
-  padding-top:33px;
+.search {
+  padding-top: 33px;
   padding-bottom: 49px;
 }
-.search__title{
+
+.search__title {
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
@@ -10,19 +11,21 @@
   margin: 0;
   text-align: center;
 }
-.search__text{
+
+.search__text {
   font-size: 14px;
   line-height: 24px;
   padding-bottom: 27px;
   margin: 0;
   text-align: center;
 }
-.search__hotels{
+
+.search__hotels {
   font-weight: bold;
   font-size: 21px;
   line-height: 26px;
-  color:$basic-white;
-  background-color:$basic-blue;
+  color: $basic-white;
+  background-color: $basic-blue;
   padding: 14px 32px 17px 32px;
   text-align: center;
 }

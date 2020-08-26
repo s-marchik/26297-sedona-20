@@ -1,23 +1,27 @@
-.photo__wrapper{
-  padding:22px 20px 21px 20px;
+.photo__wrapper {
+  padding: 22px 20px 21px 20px;
 }
-.photo__link{
+
+.photo__link {
   margin: 0;
 }
-.photo__title{
+
+.photo__title {
   font-weight: bold;
   font-size: 14px;
   line-height: 24px;
-  margin:0;
+  margin: 0;
   padding-bottom: 15px;
   padding-top: 10px;
 }
-.photo__author{
+
+.photo__author {
   margin: 0;
   text-transform: none;
   padding-bottom: 13px;
 }
-.photo__like-number{
+
+.photo__like-number {
   display: inline-block;
   margin: 0;
   margin-left: 14px;

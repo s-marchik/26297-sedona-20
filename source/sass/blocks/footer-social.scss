@@ -1,25 +1,29 @@
-.footer-social__list{
+.footer-social__list {
   display: flex;
   flex-direction: row;
-  justify-content:center;
-  width:100%;
+  justify-content: center;
+  width: 100%;
   height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   list-style: none;
   padding: 0;
 }
-.footer-social__item{
-  background-color:$basic-blue;
+
+.footer-social__item {
+  background-color: $basic-blue;
   width: 46px;
   height: 48px;
+
   &:nth-child(2) {
     margin-left: 6px;
   }
+
   &:last-child {
     margin-left: 6px;
   }
 }
-.footer-social__icon{
+
+.footer-social__icon {
   text-decoration: none;
 }

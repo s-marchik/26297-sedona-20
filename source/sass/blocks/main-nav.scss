@@ -1,0 +1,18 @@
+.main-nav {
+  background-color: $basic-blue;
+}
+
+.main-nav__list {
+  text-decoration: none;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav__link {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 40px;
+  color: $basic-white;
+  text-decoration: none;
+}

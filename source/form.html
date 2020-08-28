@@ -51,20 +51,30 @@
           <div class="form__wrapper">
             <fieldset class="form__fieldset form__fieldset--name">
               <legend class="form__legend form__legend--name">Представьтесь:</legend>
-                <label class="form__label form__label--first-name" for="first-name">Имя*</label>
-                <input class="form__input form__input--first-name" id="first-name" type="text" placeholder="Петр">
-                <label class="form__label form__label--second-name" for="second-name">Фамилия*</label>
-                <input class="form__input form__input--second-name" id="second-name" type="text" placeholder="Иванов">
+                <div class="form__wraper--name">
+                  <label class="form__label form__label--first-name" for="first-name">Имя*:</label>
+                  <input class="form__input form__input--first-name" id="first-name" type="text" placeholder="Петр">
+                </div>
+                <div class="form__wraper--name">
+                  <label class="form__label form__label--second-name" for="second-name">Фамилия*:</label>
+                  <input class="form__input form__input--second-name" id="second-name" type="text" placeholder="Иванов">
+                </div>
+                <div class="form__wraper--name">
                 <label class="form__label form__label--last-name" for="last-name">Отчество:</label>
                 <input class="form__input form__input--last-name" id="last-name" type="text" placeholder="Александрович">
-            </fieldset>
+              </div>
+              </fieldset>
             <fieldset class="form__fieldset form__fieldset--contact">
               <legend class="form__legend form__legend--contact">Контактная информация:</legend>
+              <div class="form__wraper--contact">
                 <label class="form__label form__label--contact-tel" for="contact-tel">Контактный телефон*:</label>
                 <input class="form__input form__input--contact-tel" id="contact-tel" type="tel" placeholder="Введите телефон">
+              </div>
+              <div class="form__wraper--contact">
                 <label class="form__label form__label--contact-email" for="contact-email">Электронная почта*:</label>
                 <input class="form__input form__input--contact-email" id="contact-email" type="email" placeholder="Введите e-mail">
-            </fieldset>
+              </div>
+              </fieldset>
             <fieldset class="form__fieldset form__fieldset--radio">
               <legend class="form__legend form__legend--radio">Ваше общее впечатление:</legend>
                 <input class="visually-hidden form__input form__input--radio" type="radio" name="impression" id="filter-impression" checked>

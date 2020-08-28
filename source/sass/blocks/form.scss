@@ -1,0 +1,74 @@
+.form {
+  margin: 0;
+  padding: 0;
+}
+
+.form__fieldset {
+  display: block;
+  margin-top: 20px;
+  padding: 0 25px;
+  border: none;
+}
+
+.form__legend {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: center;
+  padding-left: 16px;
+  padding-right: 16px;
+
+  &--name {
+    margin-bottom: 19px;
+  }
+
+  &--contact {
+    margin-bottom: 17px;
+  }
+
+  &--radio,
+  &--checkbox {
+    margin-bottom: 25px;
+  }
+  &----comments {
+    margin-bottom: 15px;
+  }
+}
+.form__wraper--name{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.form__label {
+  font-size: 14px;
+  line-height: 26px;
+  padding-right: 10px;
+}
+
+.form__input {
+  border: none;
+  background-color: $form-grey;
+  height: 58px;
+  flex-grow: 1;
+
+  &::placeholder {
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: bold;
+    padding-left: 22px;
+    color: $basic-black;
+  }
+}
+
+.form__wraper--contact {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.form__label--radio {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: none;
+}

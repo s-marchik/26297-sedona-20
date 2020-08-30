@@ -1,6 +1,5 @@
 @import "general/normalize.scss";
 @import "general/variables.scss";
-@import "general/mixins.scss";
 @import "general/fonts.scss";
 @import "general/global.scss";
 @import "blocks/page.scss";
@@ -11,10 +10,13 @@
 @import "blocks/city-property.scss";
 @import "blocks/recreation-list.scss";
 @import "blocks/search.scss";
-@import "blocks/map.scss";
 @import "blocks/footer.scss";
 @import "blocks/footer-contacts.scss";
 @import "blocks/footer-social.scss";
 @import "blocks/footer-copyright.scss";
 @import "blocks/page-photo.scss";
 @import "blocks/photo.scss";
+@import "blocks/video-presentation.scss";
+@import "blocks/page-form.scss";
+@import "blocks/form.scss";
+@import "blocks/map.scss";

@@ -15,3 +15,24 @@
   line-height: 24px;
   text-align: center;
 }
+
+.video-gallery__controls-wrapper {
+  width: 280px;
+  height: 111px;
+  position: relative;
+  text-align: center;
+}
+
+.video-gallery__range-wrapper {
+  width: 280px;
+  height: 45px;
+  position: absolute;
+  top: -52px;
+}
+
+.video-gallery__controls {
+  width: 280px;
+  height: 66px;
+  position: absolute;
+  top: -7px;
+}

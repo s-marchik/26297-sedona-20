@@ -1,11 +1,10 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Сергей Марчик](https://up.htmlacademy.ru/adaptive/20/user/26297).
-<<<<<<< HEAD
 * Наставник: `Михаил Савотиков`.
 =======
 * Наставник: [Михаил Савотиков](https://htmlacademy.ru/profile/id98316).
->>>>>>> 4fc9eb92742e7e88862391e5862ab3874151c0bc
+
 
 ---
 

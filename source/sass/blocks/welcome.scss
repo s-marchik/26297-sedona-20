@@ -4,14 +4,45 @@
   background-repeat: no-repeat;
   padding-top: 90px;
   padding-bottom: 75px;
+  text-align: center;
 }
 
 .welcome--form {
   padding-top: 53px;
   padding-bottom: 67px;
+  height: 157px;
+  text-align: center;
 }
 
 .welcome--photo {
   padding-top: 52px;
   padding-bottom: 67px;
+  height: 157px;
+  text-align: center;
+}
+
+@media (min-width: $tablet-width) {
+  .welcome {
+    background-image: url("../img/bg-back-tablet@1x.jpg");
+    background-color: $basic-blue;
+    padding-top: 90px;
+    padding-bottom: 75px;
+    height: 518px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .welcome {
+    background-image: url("../img/bg-back-desktop@1x.jpg");
+    background-color: $basic-blue;
+    padding-top: 90px;
+    padding-bottom: 75px;
+    height: 518px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+  }
 }

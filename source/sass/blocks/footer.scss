@@ -1,4 +1,29 @@
 .footer {
   padding-top: 39px;
   padding-bottom: 26px;
+  margin:0 auto;
+}
+
+@media (min-width: $tablet-width) {
+  .footer__wrapper {
+    display: flex;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-right: 60px;
+    padding-left: 60px;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .footer__wrapper {
+    display: flex;
+    padding-top: 36px;
+    padding-bottom: 36px;
+    padding-right: 120px;
+    padding-left: 160px;
+    justify-content: space-between;
+    align-items: center;
+  }
 }

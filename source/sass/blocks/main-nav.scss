@@ -9,10 +9,127 @@
   padding: 0;
 }
 
+.main-nav__item {
+  margin: 0;
+  padding: 0;
+}
+
 .main-nav__link {
   font-weight: bold;
   font-size: 18px;
   line-height: 40px;
   color: $basic-white;
   text-decoration: none;
+  background-color: $basic-blue;
+
+  &:hover,
+  &:focus {
+    background-color: $basic-blue;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .main-nav__toggle {
+    display: none;
+  }
+
+  .main-nav {
+    background-color: $basic-white;
+  }
+
+  .main-nav__wrapper {
+    height: 40px;
+    padding-top: 16px;
+    padding-left: 49px;
+    padding-right: 26px;
+  }
+
+  .main-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .main-nav__link {
+    color: $basic-black;
+    background-color: $basic-white;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 26px;
+
+    &:hover,
+    &:focus {
+      background-color: $basic-white;
+    }
+
+    &:active {
+      color: rgba(#000000, 0.3%);
+      background-color: $basic-white;
+    }
+
+    &--active {
+      background-color: $basic-white;
+
+      &:hover,
+      &:focus {
+        background-color: $basic-white;
+      }
+
+      &:active {
+        color: rgba(#766357, 0.3%);
+        background-color: $basic-white;
+      }
+    }
+  }
+
+}
+@media (min-width: $desktop-width) {
+  .main-nav__toggle {
+    display: none;
+  }
+
+  .main-nav__wrapper {
+    height: 40px;
+    padding-top: 16px;
+    padding-left: 130px;
+    padding-right: 70px;
+  }
+
+  .main-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .main-nav__link {
+    color: $basic-black;
+    background-color: $basic-white;
+
+    &:hover,
+    &:focus {
+
+      background-color: $basic-white;
+    }
+
+    &:active {
+      color: rgba(#000000, 0.3%);
+      background-color: $basic-white;
+    }
+
+    &--active {
+
+      background-color: $basic-white;
+
+      &:hover,
+      &:focus {
+
+        background-color: $basic-white;
+      }
+
+      &:active {
+        color: rgba(#766357, 0.3%);
+        background-color: $basic-white;
+      }
+    }
+  }
 }

@@ -5,20 +5,23 @@
   padding-top: 90px;
   padding-bottom: 75px;
   text-align: center;
+  background-position: center center;
 }
 
 .welcome--form {
   padding-top: 53px;
   padding-bottom: 67px;
-  height: 157px;
+  height: 28px;
   text-align: center;
+  background-position: center center;
 }
 
 .welcome--photo {
   padding-top: 52px;
   padding-bottom: 67px;
-  height: 157px;
+  height: 28px;
   text-align: center;
+  background-position: center center;
 }
 
 @media (min-width: $tablet-width) {
@@ -27,10 +30,30 @@
     background-color: $basic-blue;
     padding-top: 90px;
     padding-bottom: 75px;
-    height: 518px;
+    height: 353px;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    background-position: center center;
+
+    &--form {
+    padding-top: 95px;
+    padding-bottom: 117px;
+    height: 78px;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    &--photo {
+      padding-top: 95px;
+      padding-bottom: 117px;
+      height: 78px;
+      text-align: center;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
   }
 }
 
@@ -40,9 +63,29 @@
     background-color: $basic-blue;
     padding-top: 90px;
     padding-bottom: 75px;
-    height: 518px;
+    height: 353px;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    background-position: center center;
+
+    &--form {
+    padding-top: 111px;
+    padding-bottom: 120px;
+    height: 78px;
+    text-align: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    }
+    &--photo {
+      padding-top: 111px;
+      padding-bottom: 120px;
+      height: 78px;
+      text-align: center;
+      background-position: center center;
+      background-size: cover;
+      background-repeat: no-repeat;
+    }
   }
 }

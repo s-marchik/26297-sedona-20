@@ -89,16 +89,12 @@
 
 @media (min-width: $desktop-width) {
   .city-property__wrapper{
-    display: flex;
-    flex-wrap: wrap;
+
 
     &--gray-bg {
       flex-direction: row;
 
     }
   }
-  .city-property__wrapper-img {
-    flex-basis: 512px;
 
-  }
 }

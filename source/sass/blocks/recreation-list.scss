@@ -50,3 +50,19 @@
     background-size: 40px 35px;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .recreation-list {
+    background-color: $basic-white;
+    display: flex;
+  }
+
+}
+
+@media (min-width: desktop-width) {
+  .recreation-list {
+    background-color: $basic-white;
+    display: flex;
+  }
+
+}

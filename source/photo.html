@@ -7,142 +7,144 @@
     <link href="css/style.css" rel="stylesheet">
 </head>
 <body class="page__body">
-  <header class="page-header">
-    <a class="page-header__logo" href="index.html">
-      <img src="img/logo-sedona-mobile.svg" width="102" height="84" alt="City of Sedona">
-    </a>
-    <nav class="main-nav">
-      <button class="main-nav__toggle" type="button">
-        <span class="visually-hidden">Открыть меню</span>
-      </button>
-      <div class="main-nav__wrapper">
-      <ul class="main-nav__list">
-        <li class="main-nav__item">
-          <a class="main-nav__link" href="index.html"></href=>
-            Главная
+  <div class="container">
+    <header class="page-header">
+      <a class="page-header__logo" href="index.html">
+        <img src="img/logo-sedona-mobile.svg" width="102" height="84" alt="City of Sedona">
+      </a>
+      <nav class="main-nav">
+        <button class="main-nav__toggle" type="button">
+          <span class="visually-hidden">Открыть меню</span>
+        </button>
+        <div class="main-nav__wrapper">
+        <ul class="main-nav__list">
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="index.html"></href=>
+              Главная
+            </a>
+          </li>
+          <li class="main-nav__item main-nav__item--active">
+            <a class="main-nav__link">
+              Фото и видео
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="form.html">
+              Форма отзыва
+            </a>
+          </li>
+          <li class="main-nav__item">
+            <a class="main-nav__link" href="https://htmlacademy.ru">
+              html academy
+            </a>
+          </li>
+        </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="page-photo">
+      <h1 class="visually-hidden">Welcome to the gorgeous SEDONA! "Because the Grand Canyon sucks"</h1>
+      <section class="welcome welcome--photo">
+        <img src="img/SEDONA.svg" width="229" height="39" alt="SEDONA">
+      </section>
+      <h2 class="page-photo__title">Фото и видео</h2>
+      <p class="page-photo__text">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+      <section class="photo">
+        <div class="photo__wrapper photo__wrapper--main">
+          <a class="photo__link">
+            <img src="img/photo-sunset-mobile@1x.jpg" width="280" height="280" alt="Неродные просторы">
           </a>
-        </li>
-        <li class="main-nav__item main-nav__item--active">
-          <a class="main-nav__link">
-            Фото и видео
+          <h3 class="photo__title">Неродные просторы</h3>
+          <p class="photo__author">Автор фото: Борис</p>
+          <button class="photo__like"></button>
+          <p class="photo__like-number">1350</p>
+        </div>
+        <div class="photo__wrapper">
+          <a class="photo__link">
+            <img src="img/photo-cactus-mobile@1x.jpg" width="280" height="280" alt="Местная растительность">
           </a>
-        </li>
-        <li class="main-nav__item">
-          <a class="main-nav__link" href="form.html">
-            Форма отзыва
+          <h3 class="photo__title">Местная растительность</h3>
+          <p class="photo__author">Автор фото: Сергей</p>
+          <button class="photo__like"></button>
+          <p class="photo__like-number">143</p>
+        </div>
+        <div class="photo__wrapper">
+          <a class="photo__link">
+            <img src="img/photo-roads-mobile@1x.jpg" width="280" height="280" alt="Дорога на север">
           </a>
-        </li>
-        <li class="main-nav__item">
-          <a class="main-nav__link" href="https://htmlacademy.ru">
-            html academy
+          <h3 class="photo__title">Дорога на север</h3>
+          <p class="photo__author">Автор фото: Петр</p>
+          <button class="photo__like"></button>
+          <p class="photo__like-number">96</p>
+        </div>
+        <div class="photo__wrapper">
+          <a class="photo__link">
+            <img src="img/photo-bridge-mobile@1x.jpg" width="280" height="280" alt="Мост дьявола">
           </a>
-        </li>
-      </ul>
-      </div>
-    </nav>
-  </header>
-  <main class="page-photo">
-    <h1 class="visually-hidden">Welcome to the gorgeous SEDONA! "Because the Grand Canyon sucks"</h1>
-    <section class="welcome welcome--photo">
-      <img src="img/SEDONA.svg" width="229" height="39" alt="SEDONA">
-    </section>
-    <h2 class="page-photo__title">Фото и видео</h2>
-    <p class="page-photo__text">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
-    <section class="photo">
-      <div class="photo__wrapper">
-        <a class="photo__link">
-          <img src="img/photo-sunset-mobile@1x.jpg" width="280" height="280" alt="Неродные просторы">
-        </a>
-        <h3 class="photo__title">Неродные просторы</h3>
-        <p class="photo__author">Автор фото: Борис</p>
-        <button class="photo__like"></button>
-        <p class="photo__like-number">1350</p>
-      </div>
-      <div class="photo__wrapper">
-        <a class="photo__link">
-          <img src="img/photo-cactus-mobile@1x.jpg" width="280" height="280" alt="Местная растительность">
-        </a>
-        <h3 class="photo__title">Местная растительность</h3>
-        <p class="photo__author">Автор фото: Сергей</p>
-        <button class="photo__like"></button>
-        <p class="photo__like-number">143</p>
-      </div>
-      <div class="photo__wrapper">
-        <a class="photo__link">
-          <img src="img/photo-roads-mobile@1x.jpg" width="280" height="280" alt="Дорога на север">
-        </a>
-        <h3 class="photo__title">Дорога на север</h3>
-        <p class="photo__author">Автор фото: Петр</p>
-        <button class="photo__like"></button>
-        <p class="photo__like-number">96</p>
-      </div>
-      <div class="photo__wrapper">
-        <a class="photo__link">
-          <img src="img/photo-bridge-mobile@1x.jpg" width="280" height="280" alt="Мост дьявола">
-        </a>
-        <h3 class="photo__title">Мост дьявола</h3>
-        <p class="photo__author">Автор фото: Антон</p>
-        <button class="photo__like"></button>
-        <p class="photo__like-number">254</p>
-      </div>
-    </section>
-    <section class="video-presentation">
-      <div class="video-presentation__wrapper">
-        <h2 class="video-presentation__title">Все еще сомневаетесь?</h2>
-        <p class="video-presentation__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
-      </div>
-      <div class="video-gallery">
-        <div class="video-gallery__wrapper">
-          <video class="video-gallery__clip" width="320" height="201" poster="img/video-mobile@1x.jpg">
-            <source src="#">
-          </video>
-          <div class="video-gallery__controls-wrapper">
-            <div class="video-gallery__range-wrapper">
-              <input class="video-gallery__range-progress" type="range" min="0" max="100" value="0" step="1">
-            </div>
-            <div class="video-gallery__controls">
-              <button class="video-gallery__button video-gallery__button--play">
-                <span class="visually-hidden">Воспроизведение</span>
-              </button>
-              <button class="video-gallery__button video-gallery__button--subtitles">
-                <span class="visually-hidden">Субтитры</span>
-              </button>
-              <button class="video-gallery__button video-gallery__button--fullscreen">
-                <span class="visually-hidden">Полный экран</span>
-              </button>
+          <h3 class="photo__title">Мост дьявола</h3>
+          <p class="photo__author">Автор фото: Антон</p>
+          <button class="photo__like"></button>
+          <p class="photo__like-number">254</p>
+        </div>
+      </section>
+      <section class="video-presentation">
+        <div class="video-presentation__wrapper">
+          <h2 class="video-presentation__title">Все еще сомневаетесь?</h2>
+          <p class="video-presentation__text">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+        </div>
+        <div class="video-gallery">
+          <div class="video-gallery__wrapper">
+            <video class="video-gallery__clip" width="320" height="201" poster="img/video-mobile@1x.jpg">
+              <source src="#">
+            </video>
+            <div class="video-gallery__controls-wrapper">
+              <div class="video-gallery__range-wrapper">
+                <input class="video-gallery__range-progress" type="range" min="0" max="100" value="0" step="1">
+              </div>
+              <div class="video-gallery__controls">
+                <button class="video-gallery__button video-gallery__button--play">
+                  <span class="visually-hidden">Воспроизведение</span>
+                </button>
+                <button class="video-gallery__button video-gallery__button--subtitles">
+                  <span class="visually-hidden">Субтитры</span>
+                </button>
+                <button class="video-gallery__button video-gallery__button--fullscreen">
+                  <span class="visually-hidden">Полный экран</span>
+                </button>
+              </div>
             </div>
           </div>
         </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__wrapper">
+        <section class="footer-contacts">
+          <a class="footer-contacts__link" href="#">#visitSEDONA</a>
+        </section>
+        <section class="footer-social">
+          <ul class="footer-social__list">
+            <li class="footer-social__item">
+              <a class="footer-social__icon footer-social__icon--twitter href="#"></a>
+            </li>
+            <li class="footer-social__item">
+              <a class="footer-social__icon footer-social__icon--facebook" href="#"></a>
+            </li>
+            <li class="footer-social__item">
+              <a class="footer-social__icon footer-social__icon--youtube" href="#"></a>
+            </li>
+          </ul>
+        </section>
+        <p class="footer-copyright">
+          Разработано
+          <a class="footer-copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
+            <svg width="27" height="35" viewBox="0 0 27 35" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M13.6 0H13.5L0 1.4V26.1L13.5 34.1L26.9 26.1V1.4L13.6 0ZM25 12.1L13.5 5.3V5.2H13.4L13.3 5.1V5.2L1.9 12.1V3.1L13.4 1.9L25 3.1V12.1ZM13.4 6.8L24.9 13.5L20.4 16.1L13.3 11.9V13.3L19.2 16.8L18.3 17.3L13.3 14.3V15.7L17.1 18L16.3 18.5L13.3 16.7V18.1L15.2 19.2L13.4 20.3L2 13.6L13.4 6.8ZM1.9 15.1L13.3 21.9V22.9L5.4 18.2V19.6L13.4 24.4V25.5L5.4 20.8V22.2L13.4 27L21.5 22.1V16.9L24.9 14.9V24.9L13.4 31.8L1.9 25V15.1Z" fill="black"/>
+            </svg>
+          </a>
+        </p>
       </div>
-    </section>
-  </main>
-  <footer class="footer">
-    <div class="footer__wrapper">
-      <section class="footer-contacts">
-        <a class="footer-contacts__link" href="#">#visitSEDONA</a>
-      </section>
-      <section class="footer-social">
-        <ul class="footer-social__list">
-          <li class="footer-social__item">
-            <a class="footer-social__icon footer-social__icon--twitter href="#"></a>
-          </li>
-          <li class="footer-social__item">
-            <a class="footer-social__icon footer-social__icon--facebook" href="#"></a>
-          </li>
-          <li class="footer-social__item">
-            <a class="footer-social__icon footer-social__icon--youtube" href="#"></a>
-          </li>
-        </ul>
-      </section>
-      <p class="footer-copyright">
-        Разработано
-        <a class="footer-copyright__link" href="https://htmlacademy.ru/intensive/adaptive">
-          <svg width="27" height="35" viewBox="0 0 27 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-            <path d="M13.6 0H13.5L0 1.4V26.1L13.5 34.1L26.9 26.1V1.4L13.6 0ZM25 12.1L13.5 5.3V5.2H13.4L13.3 5.1V5.2L1.9 12.1V3.1L13.4 1.9L25 3.1V12.1ZM13.4 6.8L24.9 13.5L20.4 16.1L13.3 11.9V13.3L19.2 16.8L18.3 17.3L13.3 14.3V15.7L17.1 18L16.3 18.5L13.3 16.7V18.1L15.2 19.2L13.4 20.3L2 13.6L13.4 6.8ZM1.9 15.1L13.3 21.9V22.9L5.4 18.2V19.6L13.4 24.4V25.5L5.4 20.8V22.2L13.4 27L21.5 22.1V16.9L24.9 14.9V24.9L13.4 31.8L1.9 25V15.1Z" fill="black"/>
-          </svg>
-        </a>
-      </p>
-    </div>
-  </footer>
+    </footer>
+  </div>
 </body>
 </html>

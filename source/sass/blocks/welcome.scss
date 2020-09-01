@@ -36,7 +36,8 @@
     text-align: center;
     background-position: center center;
 
-    &--form {
+    &--form,
+    &--photo {
     padding-top: 95px;
     padding-bottom: 117px;
     height: 78px;
@@ -44,15 +45,6 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    }
-    &--photo {
-      padding-top: 95px;
-      padding-bottom: 117px;
-      height: 78px;
-      text-align: center;
-      background-position: center center;
-      background-size: cover;
-      background-repeat: no-repeat;
     }
   }
 }
@@ -69,7 +61,8 @@
     text-align: center;
     background-position: center center;
 
-    &--form {
+    &--form,
+    &--photo {
     padding-top: 111px;
     padding-bottom: 120px;
     height: 78px;
@@ -77,15 +70,6 @@
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
-    }
-    &--photo {
-      padding-top: 111px;
-      padding-bottom: 120px;
-      height: 78px;
-      text-align: center;
-      background-position: center center;
-      background-size: cover;
-      background-repeat: no-repeat;
     }
   }
 }

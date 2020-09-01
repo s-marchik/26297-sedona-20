@@ -32,21 +32,28 @@
 
 @media (min-width: $tablet-width) {
   .photo {
-    display:grid;
-    padding: 83px 60px 58px;
-    margin: 0;
-  }
-  .photo__wrapper {
-    padding: 0;
-    margin:0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 
+  .photo__wrapper {
+    &--main {
+      grid-column: 1 / -1;
+      width: 100%;
+    }
+  }
 }
 
 @media (min-width: $desktop-width) {
   .photo {
-    display:grid;
-    padding: 100px 0 63px;
-    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .photo__wrapper {
+    &--main {
+      grid-column: 1 / -1;
+      width: 100%;
+    }
   }
 }

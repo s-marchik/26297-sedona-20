@@ -16,20 +16,10 @@ img {
   overflow: hidden;
 }
 
-.container {
-  margin: 0 auto;
-  max-width: $mobile-width-container;
-}
-
-@media (min-width: $tablet-width) {
-  .container {
-    max-width: $tablet-width-container;
-  }
-}
-
 @media (min-width: $desktop-width) {
   .container {
     max-width: $desktop-width-container;
-    box-shadow: 0px 5px 15px $form-imput-grey;
+    box-shadow: 0 5px 15px $form-imput-grey;
+    margin: 0 auto;
   }
 }

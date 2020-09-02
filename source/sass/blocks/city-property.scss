@@ -1,5 +1,4 @@
 .city-property__wrapper {
-  background-color: $basic-blue;
   margin: 0;
   padding: 0;
 }
@@ -60,6 +59,10 @@
   padding-bottom: 35px;
 }
 
+.city-property__wrapper--blue-bg {
+  background-color: $basic-blue;
+}
+
 .city-property__wrapper--gray-bg {
   background-color: $basic-grey;
 
@@ -81,7 +84,7 @@
   background-color: $basic-black;
 }
 
-.city-property__wrapper-img {
+.city-property__img {
   padding: 0;
   margin: 0;
   line-height: 0;

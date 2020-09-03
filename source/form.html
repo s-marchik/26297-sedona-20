@@ -62,10 +62,10 @@
                     <input class="form__input form__input--second-name" id="second-name" type="text" placeholder="Иванов">
                   </div>
                   <div class="form__wrapper form__wrapper--name">
-                  <label class="form__label form__label--last-name" for="last-name">Отчество:</label>
-                  <input class="form__input form__input--last-name" id="last-name" type="text" placeholder="Александрович">
-                </div>
-                </fieldset>
+                    <label class="form__label form__label--last-name" for="last-name">Отчество:</label>
+                    <input class="form__input form__input--last-name" id="last-name" type="text" placeholder="Александрович">
+                  </div>
+              </fieldset>
               <fieldset class="form__fieldset form__fieldset--contact">
                 <legend class="form__legend form__legend--contact">Контактная информация:</legend>
                 <div class="form__wrapper form__wrapper--contact">
@@ -94,6 +94,7 @@
                   </fieldset>
               <fieldset class="form__fieldset form__fieldset--checkbox">
                 <legend class="form__legend form__legend--checkbox""> Посещенные достопримечательности:</legend>
+                <div class="form__wrapper--checkbox-folder">
                 <div class="form__wrapper form__wrapper--checkbox">
                   <input class="visually-hidden form__input form__input--checkbox" type="checkbox" name="attractions" id="filter-attractions" checked>
                   <label class="form__label form__label--checkbox" for="filter-attractions">Мост Дьявола</label>
@@ -110,12 +111,16 @@
                   <input class="visually-hidden form__input form__input--checkbox" type="checkbox" name="attractions" id="filter-attractions">
                   <label class="form__label form__label--checkbox" for="filter-attractions">Красные скалы</label>
                 </div>
+                </div>
               </fieldset>
               <fieldset class="form__fieldset form__fieldset--comments">
                 <legend class="form__legend form__legend--comments">Опишите свои эмоции:</legend>
                 <textarea class="form__textarea" name="comment">Опишите подробно все свои восторг</textarea>
               </fieldset>
-              <button class="form__button" type="submit">Отправить отзыв</button>
+              <div class="form__submit">
+                <button class="form__button" type="submit">Отправить отзыв</button>
+                <span class="form__required"><sup>*</sup> — Обязательные поля</span>
+              </div>
             </div>
           </form>
     </main>

@@ -1,0 +1,7 @@
+@media (min-width: $desktop-width) {
+  .page__container {
+    max-width: $desktop-width-container;
+    box-shadow: 0 5px 15px $form-imput-grey;
+    margin: 0 auto;
+  }
+}

@@ -15,11 +15,3 @@ img {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
-@media (min-width: $desktop-width) {
-  .container {
-    max-width: $desktop-width-container;
-    box-shadow: 0 5px 15px $form-imput-grey;
-    margin: 0 auto;
-  }
-}

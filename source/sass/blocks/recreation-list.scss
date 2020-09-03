@@ -34,19 +34,67 @@
   height: 37px;
   background-repeat: no-repeat;
   top: -11px;
+  background-size: contain;
+  background-position: bottom right;
 
   &--home {
     background-image: url("../img/icon-house.svg");
-    background-size: 39px 37px;
   }
 
   &--present {
     background-image: url("../img/icon-gift.svg");
-    background-size: 32px 37px;
   }
 
   &--food {
     background-image: url("../img/icon-burger.svg");
-    background-size: 40px 35px;
+  }
+}
+
+@media (min-width: $tablet-width) {
+  .recreation-list {
+    background-color: $basic-white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 0;
+  }
+
+  .recreation-list__item {
+    position: relative;
+    margin-top: 63px;
+    margin-bottom: 60px;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .recreation-list__title,
+  .recreation-list__text {
+    padding-left: 0;
+  }
+
+  .recreation-list__icon {
+    position: relative;
+    left: none;
+    transform: none;
+    background-repeat: no-repeat;
+    display: inline-block;
+    width: 76px;
+    height: 76px;
+    background-size: contain;
+    top: 0;
+    background-position: bottom center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .recreation-list {
+    background-color: $basic-white;
+    display: grid;
+    grid-template-columns: 400px 400px 400px;
+    padding: 0;
+  }
+
+  .recreation-list__item {
+    position: relative;
+    margin-bottom: 80px;
   }
 }

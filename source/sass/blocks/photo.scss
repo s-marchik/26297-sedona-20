@@ -29,3 +29,31 @@
   font-size: 14px;
   line-height: 24px;
 }
+
+@media (min-width: $tablet-width) {
+  .photo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .photo__wrapper {
+    &--main {
+      grid-column: 1 / -1;
+      width: 100%;
+    }
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .photo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .photo__wrapper {
+    &--main {
+      grid-column: 1 / -1;
+      width: 100%;
+    }
+  }
+}

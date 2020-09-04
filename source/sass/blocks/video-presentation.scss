@@ -20,36 +20,6 @@
   margin-bottom: 33px;
   width: 266px;
 }
-.video-gallery__wrapper{
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  position: relative;
-}
-
-.video-gallery__controls-wrapper {
-  width: 280px;
-  height: 111px;
-  position: relative;
-  text-align: center;
-}
-
-.video-gallery__range-wrapper {
-  width: 280px;
-  height: 45px;
-  position: absolute;
-  top: -52px;
-}
-
-.video-gallery__controls {
-  width: 280px;
-  height: 66px;
-  position: absolute;
-  top: -7px;
-}
 
 @media (min-width: $tablet-width) {
   .video-presentation__title {

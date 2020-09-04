@@ -16,12 +16,12 @@
   }
 
   &--name {
-  display:flex;
-  padding-bottom: 20px;
-  align-items: baseline;
-  box-sizing: border-box;
-  width: 100%;
-  flex-direction: row;
+    display: flex;
+    padding-bottom: 20px;
+    align-items: baseline;
+    box-sizing: border-box;
+    width: 100%;
+    flex-direction: row;
   }
 
   &:last-child {
@@ -65,7 +65,7 @@
     border-bottom: none;
     padding-top: 0;
     margin-top: 20px;
-    margin-bottom:51px;
+    margin-bottom: 51px;
   }
 }
 
@@ -102,7 +102,7 @@
 
 .form__input {
   border: none;
-  background-color: $form-imput-grey;
+  background-color: $form-input-grey;
   height: 58px;
   width: 100%;
   box-sizing: border-box;
@@ -148,10 +148,6 @@
   }
 }
 
-.form__legend--comments {
-  padding-bottom: 15px;
-}
-
 .form__textarea {
   font-weight: bold;
   font-size: 18px;
@@ -183,15 +179,44 @@
 }
 
 .form__required {
-visibility: hidden;
+  visibility: hidden;
 }
 
 @media (min-width: $tablet-width) {
   .form__wrapper {
     flex-direction: row;
     flex-wrap: wrap;
-  }
+    align-items: baseline;
 
+    &--name {
+      padding-left: 58px;
+      flex-wrap: nowrap;
+    }
+
+    &--contact {
+      text-align: left;
+      margin-bottom: 25px;
+      width: 100%;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+
+    &--radio {
+      margin-bottom: 52px;
+      text-align: left;
+      padding-left: 75px;
+    }
+
+    &--checkbox {
+      width: 50%;
+      margin-bottom: 52px;
+
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
   .form__fieldset {
     &--name {
       order: 2;
@@ -337,13 +362,13 @@ visibility: hidden;
         &--name {
           padding-left: 79px;
         }
-    
+
         &--contact {
           display: flex;
         box-sizing: border-box;
         align-items: center;
         width: 50%;
-          
+
         &:first-child {
           padding-right: 80px;
         }
@@ -352,21 +377,21 @@ visibility: hidden;
             margin-bottom: 0;
           }
         }
-    
+
         &--radio {
           margin-bottom: 52px;
           text-align: left;
           padding-left: 75px;
-    
+
           &:last-child {
             margin-bottom: 0;
           }
         }
-    
+
         &--checkbox {
           width: 50%;
           margin-bottom: 52px;
-    
+
           &:last-child {
             margin-bottom: 0;
           }
@@ -382,5 +407,4 @@ visibility: hidden;
           width: 70px;
         }
   }
-}  
-
+}

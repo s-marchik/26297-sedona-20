@@ -1,0 +1,46 @@
+.video-gallery{
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 115px;
+}
+
+.video-gallery__clip{
+  display: block;
+}
+
+.video-gallery__controls {
+  width: calc(100% - 40px);
+  height: 66px;
+  position: absolute;
+  background-color:$form-imput-grey;
+  bottom: -66px;
+  left: 20px;
+}
+
+.video-gallery__range-wrapper{
+  position: absolute;
+  top: -45px;
+  height: 15px;
+  background: $video-controls-bg;
+  width: calc(100% - 46px);
+  padding: 15px 23px;
+}
+
+@media (min-width: $tablet-width){
+  .video-gallery{
+    padding: 0 60px 40px;
+    width: calc(100% - 120px);
+  }
+  .video-gallery__controls {
+    width: calc(100% - 120px);
+    height: 93px;
+    position: absolute;
+    background-color: $video-controls-bg;
+    bottom:40px;
+    left: 60px;
+  }
+  .video-gallery__range-wrapper{
+    background-color: #fff;
+  }
+}

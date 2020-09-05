@@ -12,15 +12,19 @@
 .main-nav__item {
   margin: 0;
   padding: 0;
+  text-align: center;
+  border-bottom: 1px solid $basic-blue;
 }
 
 .main-nav__link {
   font-weight: bold;
   font-size: 18px;
-  line-height: 40px;
+  line-height: 55px;
   color: $basic-white;
   text-decoration: none;
   background-color: $basic-blue;
+  text-align: center;
+
 
   &:hover,
   &:focus {
@@ -28,11 +32,92 @@
   }
 }
 
-@media (min-width: $tablet-width) {
-  .main-nav__toggle {
-    display: none;
+.main-nav__toggle {
+  position: absolute;
+  right: 20px;
+  bottom: 17px;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+
+  &::after {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 10px;
+    height: 22px;
   }
 
+  &:hover {
+    opacity: 0.6;
+  }
+
+  &:active {
+    opacity: 0.3;
+  }
+}
+
+.main-nav__toggle::before {
+  content: "";
+  position: absolute;
+  top: 1px;
+  left: 0;
+  width: 22px;
+  height: 4px;
+  background-color: $basic-blue;
+  box-shadow: 0 9px 0 0 $basic-blue, 0 18px 0 0 $basic-blue;
+}
+
+.main-nav__close {
+  position: absolute;
+  right: 18px;
+  top: 17px;
+  width: 22.2px;
+  height: 22.2px;
+  border: none;
+  background-color: transparent;
+
+  &::before,
+  &::after {
+    content: "";
+    position: absolute;
+    display: inline-block;
+    vertical-align: middle;
+    top: 40%;
+    left: -5px;
+    width: 28px;
+    height: 4px;
+    background-color: $basic-white;
+  }
+
+  &::before {
+    transform: rotate(45deg);
+    box-shadow: none;
+  }
+
+  &::after {
+    transform: rotate(-45deg);
+  }
+
+  &:hover::before,
+  &:hover::after {
+    opacity: 60%;
+    cursor: pointer;
+  }
+
+  &:focus::before,
+  &:focus::after {
+    border: none;
+  }
+
+  &:active::before,
+  &:active::after {
+    opacity: 30%;
+    border: none;
+  }
+}
+
+@media (min-width: $tablet-width) {
   .main-nav {
     background-color: $basic-white;
 
@@ -89,10 +174,24 @@
       }
     }
   }
+
+  .main-nav__toggle {
+    display: none;
+  }
+
+  .main-nav--closed .main-nav__close {
+    display: none;
+  }
+
+  .main-nav--opened .main-nav__toggle {
+    display: none;
+  }
 }
 
+
 @media (min-width: $desktop-width) {
-  .main-nav__toggle {
+  .main-nav__toggle,
+  .main-nav__close {
     display: none;
   }
 

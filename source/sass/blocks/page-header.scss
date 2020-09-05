@@ -1,9 +1,13 @@
 .page-header {
   background-color: $basic-white;
+  display: flex;
+  flex-direction: column;
 }
 
 .page-header__logo {
-  height: 84px;
+  height: 56px;
+  order: 2;
+  text-align: center;
 }
 
 

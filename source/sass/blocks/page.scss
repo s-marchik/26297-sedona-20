@@ -12,3 +12,11 @@
   background-color: $basic-white;
   color: $basic-black;
 }
+
+@media (min-width: $desktop-width) {
+  .page__container {
+    max-width: $desktop-width-container;
+    box-shadow: 0 5px 15px $form-input-grey;
+    margin: 0 auto;
+  }
+}

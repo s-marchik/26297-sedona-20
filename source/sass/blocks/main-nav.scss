@@ -35,6 +35,14 @@
 
   .main-nav {
     background-color: $basic-white;
+
+    &--left {
+      text-align: left;
+    }
+
+    &--right {
+      text-align: right;
+    }
   }
 
   .main-nav__wrapper {

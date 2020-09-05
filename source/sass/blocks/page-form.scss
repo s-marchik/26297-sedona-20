@@ -4,11 +4,33 @@
   line-height: 26px;
   padding-top: 40px;
   margin: 0;
+  text-align: center;
 }
 
 .page-form__text {
   font-size: 14px;
   line-height: 24px;
   padding-top: 40px;
-  margin: 0;
+  margin: 0 auto;
+  margin-bottom: 26px;
+  text-align: center;
+  width: 306px;
+}
+
+@media (min-width: $tablet-width) {
+  .page-form__title {
+    margin: 25px auto 41px auto;
+    font-size: 30px;
+  }
+
+  .page-form__text {
+    width: 440px;
+    padding: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .page-form__title {
+    margin: 73px auto 41px auto;
+  }
 }

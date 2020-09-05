@@ -1,6 +1,7 @@
 .video-presentation__wrapper {
   padding-top: 32px;
   padding-bottom: 49px;
+  text-align: center;
 }
 
 .video-presentation__title {
@@ -8,31 +9,25 @@
   font-size: 18px;
   line-height: 26px;
   text-align: center;
+  margin: 28px;
 }
 
 .video-presentation__text {
   font-size: 14px;
   line-height: 24px;
   text-align: center;
+  margin: 28px auto;
+  margin-bottom: 33px;
+  width: 266px;
 }
 
-.video-gallery__controls-wrapper {
-  width: 280px;
-  height: 111px;
-  position: relative;
-  text-align: center;
-}
+@media (min-width: $tablet-width) {
+  .video-presentation__title {
+    margin: 28px;
+  }
 
-.video-gallery__range-wrapper {
-  width: 280px;
-  height: 45px;
-  position: absolute;
-  top: -52px;
-}
-
-.video-gallery__controls {
-  width: 280px;
-  height: 66px;
-  position: absolute;
-  top: -7px;
+  .video-presentation__text {
+    margin-bottom: 66px;
+    width: 445px;
+  }
 }

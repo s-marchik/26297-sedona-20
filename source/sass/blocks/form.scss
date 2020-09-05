@@ -118,6 +118,14 @@
   &--first-name {
     flex-grow: 1;
   }
+
+  &--checkbox {
+    width: 46px;
+  }
+
+  &--radio {
+    width: 48px;
+  }
 }
 
 .form__label--radio {

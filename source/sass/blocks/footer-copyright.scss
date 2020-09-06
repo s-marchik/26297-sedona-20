@@ -1,5 +1,21 @@
 .footer-copyright {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.footer-copyright__text {
+  margin-right: 12px;
   font-size: 14px;
   line-height: 26px;
-  text-align: center;
+}
+
+.footer-copyright__link {
+  align-self: flex-end;
+}
+
+@media (min-width: $tablet-width) {
+  .footer-copyright{
+    padding: 0;
+  }
 }

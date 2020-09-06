@@ -23,3 +23,9 @@
     margin-left: 6px;
   }
 }
+
+@media (min-width: $tablet-width) {
+  .footer-social {
+    margin-right: 10px;
+  }
+}

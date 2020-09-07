@@ -1,6 +1,6 @@
 .recreation-list {
   background-color: $basic-white;
-  padding-top: 17px;
+  padding-top: 18px;
   padding-bottom: 12px;
   padding-left: 19px;
   text-align: left;
@@ -27,6 +27,10 @@
   padding: 0;
   padding-left: 50px;
   width: 230px;
+
+  & br {
+    display: none;
+  }
 }
 
 .recreation-list__icon {
@@ -65,32 +69,32 @@
     width: 100%;
 
     :nth-child(2) {
-      order:1;
+      order: 1;
     }
   }
 
   .recreation-list__item {
     position: relative;
     margin-top: 56px;
-    margin-bottom: 61px;
+    margin-bottom: 60px;
     text-align: center;
-    width:33.33%
+    width: 33.33%;
   }
 
   .recreation-list__title {
     padding-left: 0;
     font-size: 21px;
-    margin-top: 19px;
+    margin-top: 18px;
     margin-bottom: 23px;
   }
 
   .recreation-list__text {
     padding: 0;
     margin: 0 auto;
-    width:193px;
+    width: 193px;
 
     &--food {
-      width:155px
+      width: 155px;
     }
   }
 
@@ -115,8 +119,21 @@
     justify-content: space-between;
   }
 
+  .recreation-list__title {
+    margin-bottom: 21px;
+  }
+
   .recreation-list__item {
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 81px;
+  }
+
+  .recreation-list__text {
+    width: 75%;
+    line-height: 22px;
+
+    & br {
+      display: block;
+    }
   }
 }

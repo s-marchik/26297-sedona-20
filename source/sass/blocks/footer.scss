@@ -1,18 +1,16 @@
 .footer {
-  padding-top: 33px;
-  padding-bottom: 26px;
+  padding-top: 39px;
   margin: 0 auto;
 }
 
 @media (min-width: $tablet-width) {
-  .footer{
+  .footer {
     padding: 0;
   }
 
   .footer__wrapper {
     display: flex;
-    padding-top: 14px;
-    padding-bottom: 27px;
+    padding-top: 22px;
     padding-right: 60px;
     padding-left: 60px;
     justify-content: space-between;
@@ -23,10 +21,9 @@
 @media (min-width: $desktop-width) {
   .footer__wrapper {
     display: flex;
-    padding-top: 36px;
-    padding-bottom: 36px;
     padding-right: 120px;
-    padding-left: 160px;
+    padding-left: 120px;
+    padding-top: 22px;
     justify-content: space-between;
     align-items: center;
   }

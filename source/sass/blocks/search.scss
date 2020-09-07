@@ -12,7 +12,7 @@
 .search__title {
   font-weight: bold;
   font-size: 21px;
-  line-height: 26px;
+  line-height: 27px;
   padding-bottom: 22px;
   margin: 0 auto;
   text-align: center;
@@ -20,8 +20,8 @@
 
 .search__text {
   font-size: 14px;
-  line-height: 24px;
-  padding-bottom: 27px;
+  line-height: 25px;
+  padding-bottom: 26px;
   margin: 0 auto;
   text-align: center;
   width: 280px;
@@ -45,8 +45,8 @@
 
 @media (min-width: $tablet-width) {
   .search {
-    padding-top: 55px;
-    padding-bottom: 61px;
+    padding-top: 57px;
+    padding-bottom: 58px;
   }
 
   .search__title {
@@ -57,7 +57,8 @@
 
   .search__text {
     width: 435px;
-    padding-bottom: 38px;
+    padding-bottom: 36px;
+    line-height: 25px;
 
     & br {
       display: block;
@@ -65,7 +66,7 @@
   }
 
   .search__hotels {
-    padding: 14px 135px 17px;
+    padding: 16px 135px 16px;
   }
 }
 
@@ -75,6 +76,11 @@
   }
 
   .search__title {
+    padding-bottom: 33px;
+  }
+
+  .search__text {
     padding-bottom: 42px;
+    line-height: 25px;
   }
 }

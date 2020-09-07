@@ -63,9 +63,8 @@
     justify-content: space-between;
     padding: 0;
     width: 100%;
-    padding: 0 14px;
 
-    :nth-child(2n) {
+    :nth-child(2) {
       order:1;
     }
   }
@@ -75,7 +74,7 @@
     margin-top: 56px;
     margin-bottom: 61px;
     text-align: center;
-
+    width:33.33%
   }
 
   .recreation-list__title {
@@ -88,6 +87,11 @@
   .recreation-list__text {
     padding: 0;
     margin: 0 auto;
+    width:193px;
+
+    &--food {
+      width:155px
+    }
   }
 
   .recreation-list__icon {
@@ -100,8 +104,6 @@
     background-size: contain;
     top: 0;
     background-position: bottom center;
-
-
   }
 }
 

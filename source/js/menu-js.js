@@ -2,14 +2,16 @@ var nMain = document.querySelector('.main-nav');
 var nClose = document.querySelector('.main-nav__close');
 var nToggle = document.querySelector('.main-nav__toggle');
 
-nClose.hidden = true;
-
 nToggle.addEventListener('click', function() {
-  nClose.hidden = false;
-  nToggle.hidden = true;
+  nClose.classList.add('main-nav--active');
+  nClose.classList.remove('main-nav--inactive');
+  nToggle.classList.add('main-nav--inactive');
+  nToggle.classList.remove('main-nav--active');
 });
 
 nClose.addEventListener('click', function() {
-  nClose.hidden = true;
-  nToggle.hidden = false;
+  nClose.classList.remove('main-nav--active');
+  nClose.classList.add('main-nav--inactive');
+  nToggle.classList.remove('main-nav--inactive');
+  nToggle.classList.add('main-nav--active');
 });

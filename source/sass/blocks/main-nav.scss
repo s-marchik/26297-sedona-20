@@ -66,6 +66,8 @@
   border: none;
   background-color: transparent;
   cursor: pointer;
+  z-index: 255;
+  outline: 0;
 
   &::after {
     content: "";
@@ -103,6 +105,7 @@
   height: 22.2px;
   border: none;
   background-color: transparent;
+  display: none;
 
   &::before,
   &::after {
@@ -144,6 +147,14 @@
   }
 }
 
+.main-nav--active {
+  display: block;
+}
+
+.main-nav--inactive {
+  display: none;
+}
+
 @media (min-width: $tablet-width) {
   .main-nav {
     background-color: $basic-white;
@@ -175,13 +186,12 @@
       margin-right: auto;
     }
 
-    &:nth-child(3) .site-list__link {
+    &:nth-child(3) .main-nav__link {
       margin-left: 8px;
     }
 
-    &:nth-child(4) .site-list__link {
-      margin-left: 10px;
-      box-shadow: none;
+    &:nth-child(4) .main-nav__link {
+      margin-left: 3px;
     }
   }
 
@@ -248,8 +258,8 @@
       margin-left: -2px;
     }
 
-    &:nth-child(3) {
-      margin-right: -1px;
+    &:nth-child(3) .main-nav__link {
+      margin-right: 4px;
     }
   }
 

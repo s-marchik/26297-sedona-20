@@ -12,7 +12,7 @@
   box-sizing: border-box;
 
   &--contact:not(:last-child) {
-    margin-bottom: 14px;
+    margin-bottom: 12px;
   }
 
   &--name {
@@ -22,6 +22,10 @@
     box-sizing: border-box;
     width: 100%;
     flex-direction: row;
+  }
+
+  &--radio {
+    padding-bottom: 42px;
   }
 
   &:last-child {
@@ -38,9 +42,9 @@
   width: 100%;
 
   &--name {
-    margin-top: 20px;
-    padding-top: 19px;
-    padding-bottom: 25px;
+    margin-top: 12px;
+    padding-top: 28px;
+    padding-bottom: 4px;
   }
 
   &--contact {
@@ -56,7 +60,7 @@
   }
 
   &--checkbox {
-    margin-top: 15px;
+    margin-top: 25px;
     padding-top: 25px;
     padding-bottom: 30px;
   }
@@ -65,7 +69,7 @@
     border-bottom: none;
     padding-top: 0;
     margin-top: 20px;
-    margin-bottom: 51px;
+    margin-bottom: 37px;
   }
 }
 
@@ -77,16 +81,15 @@
   padding-right: 16px;
 
   &--name {
-    margin-bottom: 19px;
+    margin-bottom: -8px;
   }
 
-  &--contact {
-    margin-bottom: 17px;
+  &--radio {
+    margin-bottom: 13px;
   }
 
-  &--radio,
   &--checkbox {
-    margin-bottom: 25px;
+    margin-bottom: 12px;
   }
 
   &--comments {
@@ -97,7 +100,34 @@
 .form__label {
   font-size: 14px;
   line-height: 26px;
-  padding-right: 10px;
+
+  &--first-name {
+    padding-right: 13px;
+  }
+
+  &--second-name {
+    padding-right: 15px;
+  }
+
+  &--last-name {
+    padding-right: 17px;
+  }
+
+  &--contact-tel {
+    margin-bottom: 10px;
+  }
+
+  &--contact-email {
+    margin-bottom: 7px;
+  }
+
+  &--radio {
+    padding-left: 57px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+    text-transform: none;
+  }
 }
 
 .form__input {
@@ -128,17 +158,6 @@
   }
 }
 
-.form__label--radio {
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 26px;
-  text-transform: none;
-}
-
-.form__wrapper--radio {
-  margin-bottom: 43px;
-  padding-left: 78px;
-}
 
 .form__label--checkbox {
   font-weight: bold;
@@ -152,7 +171,7 @@
   margin-bottom: 54px;
 
   &:last-child {
-    margin-bottom: 39px;
+    margin-bottom: 9px;
   }
 }
 
@@ -161,8 +180,10 @@
   font-size: 18px;
   line-height: 26px;
   text-transform: none;
-  width: 279px;
-  height: 160px;
+  width: 259px;
+  height: 150px;
+  padding-left: 20px;
+  padding-top: 12px;
 }
 
 .form__submit {
@@ -176,7 +197,7 @@
 }
 
 .form__button {
-  padding: 19px 33px 14px 32px;
+  padding: 19px 50px 14px 47px;
   color: $basic-white;
   background-color: $basic-blue;
   font-weight: bold;
@@ -188,6 +209,7 @@
 
 .form__required {
   visibility: hidden;
+  padding-bottom: 13px;
 }
 
 @media (min-width: $tablet-width) {

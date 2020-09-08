@@ -1,5 +1,5 @@
 .photo__wrapper {
-  padding: 22px 20px 14px 20px;
+  padding: 22px 20px 15px 20px;
   border-top: 1px solid $photo-folder-border;
 
   &:last-child {
@@ -27,37 +27,28 @@
 .photo__author {
   margin: 0;
   text-transform: none;
-  padding-bottom: 13px;
+  padding-bottom: 10px;
 }
 
 .photo__like-number {
   display: inline-block;
   margin: 0;
-  margin-left: 37px;
+  margin-left: 10px;
   font-weight: bold;
   font-size: 14px;
-  line-height: 26px;
+  line-height: 24px;
   position: relative;
-
-  &::before {
-    content: "";
-    display: block;
-    position: absolute;
-    left: -38px;
-    top: 0;
-    width: 23px;
-    height: 21px;
-    opacity: 0.3;
-    mask-size: contain;
-    mask-repeat: no-repeat;
-    mask-position: center;
-    mask-image: url("../img/icon-like.svg");
-    background-color: $basic-black;
-  }
 }
 
 .photo__button {
-  display: none;
+  opacity: 0.3;
+  background-image: url("../img/icon-like.svg");
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  background-size: contain;
+  width: 23px;
+  height: 22px;
+  border: none;
 }
 
 @media (min-width: $tablet-width) {
@@ -91,18 +82,18 @@
 
   .photo__folder {
     background-color: $form-input-grey;
-    padding: 12px 20px 3px;
+    padding: 12px 20px 6px;
     display: flex;
     justify-content: space-between;
   }
 
   .photo__like {
     align-self: center;
-    width: 69px;
+    width: 64px;
   }
 
   .photo__like-number {
-    margin-left: 37px;
+    margin-left: 5px;
     height: 33px;
 
     &::before {

@@ -2,7 +2,7 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
-  padding-top: 40px;
+  padding-top: 37px;
   margin: 0;
   text-align: center;
 }
@@ -10,16 +10,16 @@
 .page-form__text {
   font-size: 14px;
   line-height: 24px;
-  padding-top: 40px;
+  padding-top: 27px;
   margin: 0 auto;
-  margin-bottom: 26px;
+  margin-bottom: 17px;
   text-align: center;
   width: 306px;
 }
 
 @media (min-width: $tablet-width) {
   .page-form__title {
-    margin: 25px auto 41px auto;
+    margin: 25px auto 33px auto;
     font-size: 30px;
   }
 
@@ -31,6 +31,6 @@
 
 @media (min-width: $desktop-width) {
   .page-form__title {
-    margin: 73px auto 41px auto;
+    margin: 67px auto 34px auto;
   }
 }

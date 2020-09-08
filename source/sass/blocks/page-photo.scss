@@ -2,22 +2,24 @@
   font-weight: bold;
   font-size: 18px;
   line-height: 26px;
-  padding-top: 38px;
-  padding-bottom: 42px;
+  padding-top: 16px;
+  padding-bottom: 13px;
   text-align: center;
 }
 
 .page-photo__text {
-  padding-bottom: 38px;
+  padding-bottom: 31px;
   font-size: 14px;
   line-height: 24px;
   text-align: center;
+  width: 90%;
+  margin: 0 auto;
 }
 
 @media (min-width: $tablet-width) {
   .page-photo__title {
     padding: 0;
-    padding-top: 44px;
+    padding-top: 64px;
     font-weight: bold;
     font-size: 30px;
     line-height: 26px;
@@ -26,10 +28,10 @@
 
   .page-photo__text {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 25px;
     margin: 0 auto;
     padding: 0;
-    padding-top: 44px;
+    padding-top: 33px;
     text-align: center;
     width: 430px;
   }
@@ -37,20 +39,19 @@
 
 @media (min-width: $desktop-width) {
   .page-photo__title {
-    padding-top: 55px;
     font-weight: bold;
     font-size: 30px;
     line-height: 26px;
     text-align: center;
-    margin: 0 auto;
+    margin: 23px auto 0;
   }
 
   .page-photo__text {
     font-size: 14px;
-    line-height: 24px;
+    line-height: 25px;
     margin: 0 auto;
     padding: 0;
-    padding-top: 44px;
+    padding-top: 33px;
     text-align: center;
     width: 430px;
   }

@@ -1,21 +1,22 @@
 .recreation-list {
   background-color: $basic-white;
-  padding-top: 21px;
-  padding-bottom: 26px;
-  padding-left: 21px;
+  padding-top: 18px;
+  padding-bottom: 12px;
+  padding-left: 19px;
   text-align: left;
 }
 
 .recreation-list__item {
   position: relative;
+  margin-bottom: 25px;
 }
 
 .recreation-list__title {
   font-size: 18px;
   line-height: 26px;
-  margin-bottom: 21px;
+  margin-bottom: 16px;
   padding: 0;
-  padding-left: 70px;
+  padding-left: 50px;
 }
 
 .recreation-list__text {
@@ -24,7 +25,12 @@
   font-weight: normal;
   margin: 0;
   padding: 0;
-  padding-left: 70px;
+  padding-left: 50px;
+  width: 230px;
+
+  & br {
+    display: none;
+  }
 }
 
 .recreation-list__icon {
@@ -36,6 +42,7 @@
   top: -11px;
   background-size: contain;
   background-position: bottom right;
+  fill: $basic-blue;
 
   &--home {
     background-image: url("../img/icon-house.svg");
@@ -43,41 +50,60 @@
 
   &--present {
     background-image: url("../img/icon-gift.svg");
+    left: -3px;
   }
 
   &--food {
     background-image: url("../img/icon-burger.svg");
+    top: -5px;
+    left: -1px;
   }
 }
 
 @media (min-width: $tablet-width) {
   .recreation-list {
     background-color: $basic-white;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    display: flex;
+    justify-content: space-between;
     padding: 0;
+    width: 100%;
+
+    :nth-child(2) {
+      order: 1;
+    }
   }
 
   .recreation-list__item {
     position: relative;
-    margin-top: 63px;
+    margin-top: 56px;
     margin-bottom: 60px;
     text-align: center;
-    padding: 0 20px;
+    width: 33.33%;
   }
 
-  .recreation-list__title,
-  .recreation-list__text {
+  .recreation-list__title {
     padding-left: 0;
+    font-size: 21px;
+    margin-top: 18px;
+    margin-bottom: 23px;
+  }
+
+  .recreation-list__text {
+    padding: 0;
+    margin: 0 auto;
+    width: 193px;
+
+    &--food {
+      width: 155px;
+    }
   }
 
   .recreation-list__icon {
     position: relative;
-    left: none;
     transform: none;
     background-repeat: no-repeat;
     display: inline-block;
-    width: 76px;
+    width: 74px;
     height: 76px;
     background-size: contain;
     top: 0;
@@ -88,13 +114,26 @@
 @media (min-width: $desktop-width) {
   .recreation-list {
     background-color: $basic-white;
-    display: grid;
-    grid-template-columns: 400px 400px 400px;
+    display: flex;
     padding: 0;
+    justify-content: space-between;
+  }
+
+  .recreation-list__title {
+    margin-bottom: 21px;
   }
 
   .recreation-list__item {
     position: relative;
-    margin-bottom: 80px;
+    margin-bottom: 81px;
+  }
+
+  .recreation-list__text {
+    width: 75%;
+    line-height: 22px;
+
+    & br {
+      display: block;
+    }
   }
 }

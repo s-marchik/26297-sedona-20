@@ -53,7 +53,7 @@
           <h2 class="page-form__title">Оставьте свой отзыв</h2>
           <p class="page-form__text">Помогите нашим отелям стать лучше! Оставьте отзыв о них, а также о посещенных вами достопримечательностях</p>
           <form class="form" action="https://echo.htmlacademy.ru" method="post">
-            <div class="form__wrapper">
+            <div class="form__block">
               <fieldset class="form__fieldset form__fieldset--name">
                 <legend class="form__legend form__legend--name">Представьтесь:</legend>
                   <div class="form__wrapper form__wrapper--name">
@@ -71,13 +71,15 @@
               </fieldset>
               <fieldset class="form__fieldset form__fieldset--contact">
                 <legend class="form__legend form__legend--contact">Контактная информация:</legend>
-                <div class="form__wrapper form__wrapper--contact">
-                  <label class="form__label form__label--contact-tel" for="contact-tel">Контактный телефон*:</label>
-                  <input class="form__input form__input--contact-tel" id="contact-tel" type="tel" placeholder="Введите телефон">
-                </div>
-                <div class="form__wrapper form__wrapper--contact">
-                  <label class="form__label form__label--contact-email" for="contact-email">Электронная почта*:</label>
-                  <input class="form__input form__input--contact-email" id="contact-email" type="email" placeholder="Введите e-mail">
+                <div class="form__folder-wrapper">
+                  <div class="form__wrapper form__wrapper--contact">
+                    <label class="form__label form__label--contact-tel" for="contact-tel"><span class="form__hidden">Контактный</span> телефон*:</label>
+                    <input class="form__input form__input--contact-tel" id="contact-tel" type="tel" placeholder="Введите телефон">
+                  </div>
+                  <div class="form__wrapper form__wrapper--contact">
+                    <label class="form__label form__label--contact-email" for="contact-email">Электронная почта*:</label>
+                    <input class="form__input form__input--contact-email" id="contact-email" type="email" placeholder="Введите e-mail">
+                  </div>
                 </div>
                 </fieldset>
               <fieldset class="form__fieldset form__fieldset--radio">
@@ -96,7 +98,7 @@
                   </div>
                   </fieldset>
               <fieldset class="form__fieldset form__fieldset--checkbox">
-                <legend class="form__legend form__legend--checkbox""> Посещенные достопримечательности:</legend>
+                <legend class="form__legend form__legend--checkbox"">Посещенные достопримечательности:</legend>
                 <div class="form__folder-wrapper">
                 <div class="form__wrapper form__wrapper--checkbox">
                   <input class="visually-hidden form__input form__input--checkbox" type="checkbox" name="attractions" id="filter-attractions" checked>
@@ -118,7 +120,7 @@
               </fieldset>
               <fieldset class="form__fieldset form__fieldset--comments">
                 <legend class="form__legend form__legend--comments">Опишите свои эмоции:</legend>
-                <textarea class="form__textarea" name="comment">Опишите подробно все свои восторг</textarea>
+                <textarea class="form__textarea" name="comment">Опишите подробно все свои восторги</textarea>
               </fieldset>
               <div class="form__submit">
                 <button class="form__button" type="submit">Отправить отзыв</button>

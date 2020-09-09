@@ -1,0 +1,139 @@
+.popup {
+  background-color: $basic-white;
+  position: fixed;
+  top: 25%;
+  text-align: center;
+  box-shadow: 0 18px 18px -18px $basic-black;
+
+  display: none;
+}
+
+.popup__title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 26px;
+  text-transform: uppercase;
+  padding: 0 15px;
+  margin-bottom: 25px;
+}
+
+.popup__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: $light-black;
+  margin-bottom: 24px;
+  padding: 0 15px;
+}
+
+.popup__text--error {
+  width: 230px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.popup--error {
+  width: 320px;
+  padding: 40px 0 35px;
+}
+
+.popup__button--error {
+  font-size: 18px;
+  min-width: 180px;
+  color: $basic-white;
+  background-color: $basic-blue;
+  border: none;
+  padding: 19px 0;
+}
+
+.popup--success {
+  min-width: 320px;
+  width: 100%;
+  padding-top: 11px;
+  margin-top: -13px;
+  margin-bottom: 33px;
+}
+
+.popup__text--success {
+  padding: 0 50px;
+  margin-bottom: 40px;
+}
+
+.popup-success__wrapper {
+  background-color: $form-input-grey;
+  padding: 20px 0;
+}
+
+.popup__button--close {
+  width: 280px;
+  font-size: 18px;
+  color: $basic-white;
+  background-color: $basic-blue;
+  border: none;
+  font-weight: bold;
+  line-height: 26px;
+  text-transform: uppercase;
+  padding: 16px 0;
+}
+
+@media (min-width: $tablet-width) {
+  .popup {
+    padding-top: 22px;
+  }
+
+  .popup__title {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 40px;
+    text-transform: uppercase;
+    padding: 0 40px;
+    margin-bottom: 25px;
+
+    &--error {
+      width: 249px;
+      margin: 0 auto;
+      margin-bottom: 24px;
+    }
+  }
+
+  .popup__text {
+    margin-bottom: 38px;
+
+    &--error {
+      width: 278px;
+    }
+  }
+
+  .popup--error {
+    width: 400px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    margin-top: 25px;
+    left: 183px;
+  }
+
+  .popup__button--error {
+    width: 272px;
+    margin-bottom: 14px;
+    font-size: 21px;
+    padding: 17px 0;
+  }
+
+  .popup--success {
+    top: 30%;
+    margin-left: -320px;
+    left: 50%;
+    width: 640px;
+  }
+
+  .popup-success__wrapper {
+    padding: 47px 0;
+  }
+
+  .popup__button--close {
+    font-size: 21px;
+    line-height: 26px;
+    width: 458px;
+  }
+}

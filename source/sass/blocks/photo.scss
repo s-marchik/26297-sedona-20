@@ -75,11 +75,23 @@
     }
   }
 
+  .photo__link {
+    margin-bottom: -7px;
+  }
+
   .photo__folder {
     background-color: $form-input-grey;
-    padding: 5px 20px 6px;
+    padding: 12px 20px 6px;
     display: flex;
     justify-content: space-between;
+  }
+
+  .photo_title {
+    margin: 4px 0 0px;
+  }
+
+  .photo__button {
+    margin-top: 2px;
   }
 
   .photo__like {

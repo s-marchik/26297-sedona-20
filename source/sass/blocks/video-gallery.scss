@@ -7,13 +7,17 @@
 .video-gallery__clip {
   display: block;
   object-fit: cover;
+
+  img {
+    display: block;
+  }
 }
 
 .video-gallery__controls {
   width: calc(100% - 40px);
   height: 66px;
   position: relative;
-  background-color: #f2f2f2;
+  background-color: $form-input-grey;
   margin: 0 auto;
 }
 
@@ -39,7 +43,7 @@
   width: 9px;
   height: 9px;
   border-radius: 50%;
-  background-color: #ffffff;
+  background-color: $basic-white;
   border: 0;
   top: -3px;
   left: 35px;
@@ -85,6 +89,11 @@
     margin: 0 auto;
     width: calc(100% - 120px);
     height: 500px;
+  }
+
+  .video-gallery__clip img{
+    display: block;
+    width: 100%;
   }
 
   .video-gallery__controls {

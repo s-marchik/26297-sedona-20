@@ -1,5 +1,5 @@
 .search {
-  padding-top: 33px;
+  padding-top: 32px;
   padding-bottom: 49px;
 }
 
@@ -13,15 +13,15 @@
   font-weight: bold;
   font-size: 21px;
   line-height: 27px;
-  padding-bottom: 22px;
+  padding-bottom: 21px;
   margin: 0 auto;
   text-align: center;
 }
 
 .search__text {
   font-size: 14px;
-  line-height: 25px;
-  padding-bottom: 26px;
+  line-height: 24px;
+  padding-bottom: 28px;
   margin: 0 auto;
   text-align: center;
   width: 280px;
@@ -73,6 +73,7 @@
 @media (min-width: $desktop-width) {
   .search {
     padding-bottom: 66px;
+    padding-top: 55px;
   }
 
   .search__title {

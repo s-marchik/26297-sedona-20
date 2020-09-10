@@ -60,7 +60,6 @@
     width: 16px;
     height: 20px;
     border: none;
-    fill: $basic-white;
   }
 
   &--subtitles {
@@ -91,7 +90,7 @@
     height: 500px;
   }
 
-  .video-gallery__clip img{
+  .video-gallery__clip img {
     display: block;
     width: 100%;
   }
@@ -140,7 +139,6 @@
       position: relative;
       top: unset;
       right: unset;
-      fill: $basic-white;
     }
   }
 }

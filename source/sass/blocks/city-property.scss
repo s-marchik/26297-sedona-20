@@ -144,7 +144,7 @@
 }
 
 .city-property__pictures-folder {
-  width:100%
+  width: 100%;
 }
 
 .city-property__img {
@@ -152,7 +152,7 @@
   margin: 0;
   display: block;
   height: 260px;
-  width:100%
+  width: 100%;
 }
 
 @media (min-width: $tablet-width) {
@@ -175,7 +175,7 @@
   }
 
   .city-property__pictures-folder {
-    width:66.66%
+    width: 66.66%;
   }
 
   .city-property__img {
@@ -294,10 +294,10 @@
   }
 
   .city-property__img {
-      height: auto;
-      width: 100%;
-      top: -69px;
-      position: absolute;
+    height: auto;
+    width: 100%;
+    top: -69px;
+    position: absolute;
   }
 
   .city-property__container {

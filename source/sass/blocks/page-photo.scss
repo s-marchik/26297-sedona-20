@@ -19,7 +19,7 @@
 @media (min-width: $tablet-width) {
   .page-photo__title {
     padding: 0;
-    padding-top: 64px;
+    padding-top: 62px;
     font-weight: bold;
     font-size: 30px;
     line-height: 26px;
@@ -43,7 +43,7 @@
     font-size: 30px;
     line-height: 26px;
     text-align: center;
-    margin: 23px auto 0;
+    margin: 32px auto 0;
   }
 
   .page-photo__text {
@@ -54,5 +54,9 @@
     padding-top: 33px;
     text-align: center;
     width: 430px;
+  }
+
+  .photo__like-number {
+    height: 38px;
   }
 }

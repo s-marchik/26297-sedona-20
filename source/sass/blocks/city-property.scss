@@ -4,7 +4,7 @@
   line-height: 27px;
   text-transform: uppercase;
   margin: 0 auto;
-  padding-top: 33px;
+  padding-top: 31px;
   text-align: center;
   width: 260px;
 }
@@ -35,7 +35,7 @@
 
   &--gray-bg {
     background-color: $basic-grey;
-    padding: 25px 20px 0;
+    padding: 26px 20px 0;
 
     &::after {
       content: "";
@@ -60,11 +60,11 @@
   color: $basic-white;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 36px;
+  padding-top: 35px;
   margin: 0 auto;
 
   &--bridge {
-    padding-top: 38px;
+    padding-top: 39px;
   }
 
   &--gray-bg {
@@ -119,10 +119,10 @@
   text-align: center;
   padding-top: 17px;
   margin: 0 auto;
-  padding-bottom: 38px;
+  padding-bottom: 39px;
 
   &--bridge {
-    padding: 18px 0 35px;
+    padding: 17px 0 35px;
   }
 
   &--gray-bg {
@@ -143,11 +143,16 @@
   background-color: $basic-black;
 }
 
+.city-property__pictures-folder {
+  width: 100%;
+}
+
 .city-property__img {
   padding: 0;
   margin: 0;
   display: block;
   height: 260px;
+  width: 100%;
 }
 
 @media (min-width: $tablet-width) {
@@ -169,9 +174,13 @@
     width: auto;
   }
 
-  .city-property__img {
-    height: 257px;
+  .city-property__pictures-folder {
     width: 66.66%;
+  }
+
+  .city-property__img {
+    height: 256px;
+    width: 100%;
   }
 
   .city-property__container {
@@ -258,7 +267,7 @@
 
 @media (min-width: $desktop-width) {
   .city-property__page-title {
-    padding-top: 55px;
+    padding-top: 54px;
     font-weight: bold;
     font-size: 21px;
     line-height: 27px;
@@ -271,10 +280,24 @@
     font-size: 14px;
     line-height: 26px;
     margin: 0 auto;
-    padding-bottom: 41px;
+    padding-bottom: 42px;
     padding-top: 30px;
     text-align: center;
     width: auto;
+  }
+
+  .city-property__pictures-folder {
+    width: 66.66%;
+    height: 256px;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .city-property__img {
+    height: auto;
+    width: 100%;
+    top: -69px;
+    position: absolute;
   }
 
   .city-property__container {
@@ -296,19 +319,25 @@
       min-height: 256px;
       padding: 0 40px 24px;
     }
+
+    &--bridge {
+      .city-property__img {
+        top: -15px;
+      }
+    }
   }
 
   .city-property__folder {
     width: 33.33%;
     min-height: 256px;
-    padding: 4px 52px 0 53px;
+    padding: 5px 52px 0 53px;
     box-sizing: border-box;
   }
 
   .city-property__text {
     width: 90%;
-    padding-top: 22px;
-    line-height: 22px;
+    padding-top: 24px;
+    line-height: 21px;
 
     &--bridge {
       width: 73%;
@@ -327,7 +356,7 @@
     }
 
     &--gray-bg {
-      padding-top: 40px;
+      padding-top: 42px;
     }
   }
 }

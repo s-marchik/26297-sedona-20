@@ -1,7 +1,6 @@
 .main-nav {
   background-color: $basic-blue;
   position: relative;
-  margin-top: -1px;
 
   &::after {
     content: "";
@@ -61,8 +60,8 @@
 
 .main-nav__toggle {
   position: absolute;
-  right: 20px;
-  bottom: -40px;
+  right: 21px;
+  bottom: -39px;
   border: none;
   background-color: transparent;
   cursor: pointer;

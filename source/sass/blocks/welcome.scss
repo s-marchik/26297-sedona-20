@@ -2,49 +2,70 @@
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-color: $basic-blue;
   background-repeat: no-repeat;
-  padding-top: 90px;
-  padding-bottom: 75px;
+  padding-top: 88px;
+  padding-bottom: 78px;
   text-align: center;
   background-position: center center;
+
+  @media (min-resolution: 2dppx) {
+    background-image: url("../../img/bg-back-mobile@2x.jpg");
+    background-size: 764px auto;
+  }
+
+  &--form {
+    padding-top: 53px;
+    padding-bottom: 77px;
+    height: 28px;
+    text-align: center;
+    background-position: 50% 100%;
+  }
+
+  &--photo {
+    padding-top: 51px;
+    padding-bottom: 67px;
+    height: 40px;
+    text-align: center;
+    background-position: 50% 100%;
+  }
 }
 
-.welcome--form {
-  padding-top: 53px;
-  padding-bottom: 77px;
-  height: 28px;
-  text-align: center;
-  background-position: center center;
-}
-
-.welcome--photo {
-  padding-top: 52px;
-  padding-bottom: 67px;
-  height: 40px;
-  text-align: center;
-  background-position: center center;
-}
 
 @media (min-width: $tablet-width) {
   .welcome {
     background-image: url("../img/bg-back-tablet@1x.jpg");
     background-color: $basic-blue;
-    padding-top: 90px;
-    padding-bottom: 75px;
+    padding-top: 76px;
+    padding-bottom: 88px;
     height: 353px;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     background-position: center center;
 
+
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/bg-back-tablet@2x.jpg");
+    }
+
+    img {
+      width: 460px;
+      height: 350px;
+    }
+
     &--form,
     &--photo {
-      padding-top: 95px;
-      padding-bottom: 117px;
+      padding-top: 94px;
+      padding-bottom: 118px;
       height: 78px;
       text-align: center;
-      background-position: center center;
+      background-position: 50% 100%;
       background-size: cover;
       background-repeat: no-repeat;
+
+      img {
+        width: 457px;
+        height: 78px;
+      }
     }
   }
 }
@@ -53,21 +74,25 @@
   .welcome {
     background-image: url("../img/bg-back-desktop@1x.jpg");
     background-color: $basic-blue;
-    padding-top: 90px;
-    padding-bottom: 75px;
+    padding-top: 77px;
+    padding-bottom: 88px;
     height: 353px;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     background-position: center center;
 
+    @media (min-resolution: 2dppx) {
+      background-image: url("../../img/bg-back-desktop@2x.jpg");
+    }
+
     &--form,
     &--photo {
-      padding-top: 111px;
-      padding-bottom: 120px;
+      padding-top: 100px;
+      padding-bottom: 123px;
       height: 78px;
       text-align: center;
-      background-position: center center;
+      background-position: 50% 100%;
       background-size: cover;
       background-repeat: no-repeat;
     }

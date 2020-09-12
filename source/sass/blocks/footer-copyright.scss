@@ -7,7 +7,7 @@
 .footer-copyright__text {
   margin-right: 12px;
   font-size: 14px;
-  line-height: 26px;
+  line-height: 28px;
 }
 
 .footer-copyright__link {
@@ -17,5 +17,9 @@
 @media (min-width: $tablet-width) {
   .footer-copyright {
     padding: 0;
+  }
+
+  .footer-copyright__text {
+    line-height: 21px;
   }
 }

@@ -53,31 +53,27 @@
 .video-gallery__button {
   &--play {
     position: absolute;
-    left: 25px;
+    left: 16px;
     top: 22px;
-    background-image: url("../img/icon-video-replay.svg");
-    background-repeat: no-repeat;
-    width: 16px;
+    width: 34px;
     height: 20px;
     border: none;
   }
 
   &--subtitles {
     position: absolute;
-    right: 74px;
-    top: 23px;
-    background-image: url("../img/icon-video-subtitles.svg");
-    width: 32px;
+    right: 68px;
+    top: 22px;
+    width: 45px;
     height: 20px;
     border: none;
   }
 
   &--fullscreen {
     position: absolute;
-    right: 23px;
-    top: 23px;
-    background-image: url("../img/icon-video-fullscreen.svg");
-    width: 20px;
+    right: 16px;
+    top: 22px;
+    width: 34px;
     height: 20px;
     border: none;
   }
@@ -99,19 +95,20 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0 41px 0 35px;
-    width: calc(100% - 76px);
-    margin-top: -93px;
+    padding: 0 34px 0 26px;
+    width: calc(100% - 60px);
+    margin-top: -92px;
     height: 93px;
     background: rgba(0, 0, 0, 0.6);
   }
 
   .video-gallery__range-wrapper {
     position: relative;
-    width: calc(100% - 182px);
+    width: calc(100% - 199px);
     background: none;
     top: unset;
     padding: 0;
+    height: 17px;
   }
 
   .video-gallery__range-progress {
@@ -119,26 +116,22 @@
   }
 
   .video-gallery__button {
+    background: none;
+    fill: $basic-white;
+    height: 24px;
+    position: relative;
+    top: unset;
+    left: unset;
+    right: unset;
+
+
     &--play {
-      position: relative;
-      top: unset;
-      left: unset;
-      margin-right: 2px;
       margin-top: -3px;
       background-color: unset;
     }
 
     &--subtitles {
-      position: relative;
-      top: unset;
-      right: unset;
-      margin-right: -8px;
-    }
-
-    &--fullscreen {
-      position: relative;
-      top: unset;
-      right: unset;
+      margin-right: -17px;
     }
   }
 }
@@ -153,7 +146,8 @@
   }
 
   .video-gallery__controls {
-    padding: 0 44px 0 34px;
-    width: calc(100% - 78px);
+    padding: 0 36px 0 25px;
+    width: calc(100% - 61px);
+    margin-top: -93px;
   }
 }

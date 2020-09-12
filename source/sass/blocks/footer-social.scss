@@ -22,6 +22,14 @@
   &:last-child {
     margin-left: 6px;
   }
+
+  &:hover {
+    background-color: $social-hover;
+  }
+
+  &:active {
+    background-color: $active-blue;
+  }
 }
 
 .footer-social__icon {
@@ -46,6 +54,10 @@
     .footer-social__link-icon {
       padding: 14px 12px 14px 14px;
     }
+  }
+
+  :active {
+    opacity: 0.3;
   }
 }
 

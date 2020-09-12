@@ -14,6 +14,16 @@
   align-self: flex-end;
 }
 
+.footer-copyright__htmlacademy-logo {
+  &:hover {
+    fill: $basic-blue;
+  }
+
+  &:active {
+    fill: $photo-folder-bg;
+  }
+}
+
 @media (min-width: $tablet-width) {
   .footer-copyright {
     padding: 0;

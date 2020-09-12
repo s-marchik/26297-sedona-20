@@ -189,6 +189,24 @@
     &:nth-child(4) .main-nav__link {
       margin-left: 3px;
     }
+
+    &--active {
+      .main-nav__link {
+        color: $basic-brown;
+
+        &:hover,
+        &:focus {
+          color: $hover-brown;
+          background: none;
+        }
+
+        &:active {
+          color: $basic-brown;
+          opacity: 0.3;
+          background: none;
+        }
+      }
+    }
   }
 
   .main-nav__item:last-child .main-nav__link {
@@ -205,27 +223,15 @@
 
     &:hover,
     &:focus {
-      background-color: $basic-blue;
+      color: $basic-blue;
+      background: none;
+      cursor: pointer;
     }
 
     &:active {
       color: $basic-black;
-      background-color: transparent;
       opacity: 0.3;
-    }
-
-    &--active {
-      background-color: $basic-brown;
-
-      &:hover,
-      &:focus {
-        background-color: $hover-brown;
-      }
-
-      &:active {
-        color: $basic-brown;
-        opacity: 0.3;
-      }
+      background: none;
     }
   }
 
@@ -263,38 +269,3 @@
     padding: 16px 0 14px;
   }
 }
-
-/*
-  .main-nav__link {
-    color: $basic-black;
-    background-color: $basic-white;
-
-    &:hover,
-    &:focus {
-
-      background-color: $basic-white;
-    }
-
-    &:active {
-      color: rgba(#000000, 0.3%);
-      background-color: $basic-white;
-    }
-
-    &--active {
-
-      background-color: $basic-white;
-
-      &:hover,
-      &:focus {
-
-        background-color: $basic-white;
-      }
-
-      &:active {
-        color: rgba(#766357, 0.3%);
-        background-color: $basic-white;
-      }
-    }
-  }
-}
-*/

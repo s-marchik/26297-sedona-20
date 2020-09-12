@@ -2,10 +2,22 @@
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-color: $basic-blue;
   background-repeat: no-repeat;
-  padding-top: 88px;
+  padding-top: 87px;
   padding-bottom: 78px;
   text-align: center;
   background-position: center center;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    background-image: url("../img/bg-intro-triangle-mobile.svg");
+    height: 7.8vw;
+    width: 100vw;
+    bottom: 0;
+    left: 0;
+    background-size: 100vw;
+  }
 
   @media (min-resolution: 2dppx) {
     background-image: url("../../img/bg-back-mobile@2x.jpg");
@@ -42,6 +54,18 @@
     text-align: center;
     background-position: center center;
 
+    &::after {
+      position: absolute;
+      content: "";
+      background-image: url("../img/bg-intro-triangle-tablet.svg");
+      height: 7.3vw;
+      width: 100vw;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      background-size: 100vw;
+      background-repeat: no-repeat;
+    }
 
     @media (min-resolution: 2dppx) {
       background-image: url("../../img/bg-back-tablet@2x.jpg");
@@ -75,12 +99,25 @@
     background-image: url("../img/bg-back-desktop@1x.jpg");
     background-color: $basic-blue;
     padding-top: 77px;
-    padding-bottom: 88px;
+    padding-bottom: 87px;
     height: 353px;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     background-position: center center;
+
+    &::after {
+      position: absolute;
+      content: "";
+      background-image: url("../img/bg-intro-triangle-desktop.svg");
+      height: 67px;
+      width: 100%;
+      bottom: -11px;
+      left: 0;
+      transform: translateX(0%);
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
 
     @media (min-resolution: 2dppx) {
       background-image: url("../../img/bg-back-desktop@2x.jpg");

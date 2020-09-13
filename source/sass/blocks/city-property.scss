@@ -13,22 +13,27 @@
   font-size: 14px;
   line-height: 26px;
   margin: 0 auto;
-  padding-bottom: 48px;
+  padding-bottom: 23px;
   padding-top: 29px;
   text-align: center;
   width: 280px;
+  position: relative;
+}
+
+.city-property__container{
   position: relative;
 
   &::before {
     content: "";
     position: absolute;
-    top: 93px;
-    left: -20px;
-    height: 37px;
-    width: 100vw;
+    top: 0;
+    left: 0;
+    height: 40px;
+    width: 100%;
     background-image: url("../img/bg-triangle.svg");
     background-repeat: no-repeat;
-    background-size: 100vw;
+    background-size: cover;
+    background-position: bottom center;
   }
 }
 
@@ -73,7 +78,7 @@
   color: $basic-white;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 49px;
+  padding-top: 74px;
   margin: 0 auto;
   margin-top: -14px;
 

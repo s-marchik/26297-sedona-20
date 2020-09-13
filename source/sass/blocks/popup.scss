@@ -136,8 +136,8 @@
   }
 
   .popup__success-wrapper {
-      background-color: $form-input-grey;
-      padding: 44px 91px;
+    background-color: $form-input-grey;
+    padding: 44px 91px;
   }
 
   .popup__button--close {
@@ -146,6 +146,7 @@
     width: 458px;
   }
 }
+
 @media (min-width: $desktop-width) {
   .popup--error {
     left: 441px;

@@ -5,17 +5,17 @@
   position: relative;
   z-index: 1;
 
-    &::after {
-      position: absolute;
-      content: "";
-      background-image: url("../img/icon-map-marker.svg");
-      width: 27px;
-      height: 27px;
-      left: 50%;
-      top: 162px;
-      transform: translateX(-50%);
-      z-index: 2;
-    }
+  &::after {
+    position: absolute;
+    content: "";
+    background-image: url("../img/icon-map-marker.svg");
+    width: 27px;
+    height: 27px;
+    left: 50%;
+    top: 162px;
+    transform: translateX(-50%);
+    z-index: 2;
+  }
 
   @media (min-resolution: 2dppx) {
     background: url("/img/bg-map-mobile@2x.jpg") no-repeat center center;

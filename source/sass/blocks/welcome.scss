@@ -2,8 +2,8 @@
   background-image: url("../img/bg-back-mobile@1x.jpg");
   background-color: $basic-blue;
   background-repeat: no-repeat;
-  padding-top: 87px;
-  padding-bottom: 78px;
+  padding-top: 88px;
+  padding-bottom: 76px;
   text-align: center;
   background-position: center center;
   position: relative;
@@ -12,11 +12,13 @@
     position: absolute;
     content: "";
     background-image: url("../img/bg-intro-triangle-mobile.svg");
-    height: 7.8vw;
-    width: 100vw;
+    width: 100%;
+    height: 50%;
     bottom: 0;
     left: 0;
-    background-size: 100vw;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
   }
 
   @media (min-resolution: 2dppx) {
@@ -25,7 +27,7 @@
   }
 
   &--form {
-    padding-top: 53px;
+    padding-top: 51px;
     padding-bottom: 77px;
     height: 28px;
     text-align: center;
@@ -35,7 +37,7 @@
   &--photo {
     padding-top: 51px;
     padding-bottom: 67px;
-    height: 40px;
+    height: 38px;
     text-align: center;
     background-position: 50% 100%;
   }
@@ -55,16 +57,7 @@
     background-position: center center;
 
     &::after {
-      position: absolute;
-      content: "";
       background-image: url("../img/bg-intro-triangle-tablet.svg");
-      height: 7.3vw;
-      width: 100vw;
-      bottom: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      background-size: 100vw;
-      background-repeat: no-repeat;
     }
 
     @media (min-resolution: 2dppx) {
@@ -79,8 +72,8 @@
     &--form,
     &--photo {
       padding-top: 94px;
-      padding-bottom: 118px;
-      height: 78px;
+      padding-bottom: 120px;
+      height: 76px;
       text-align: center;
       background-position: 50% 100%;
       background-size: cover;
@@ -107,16 +100,7 @@
     background-position: center center;
 
     &::after {
-      position: absolute;
-      content: "";
       background-image: url("../img/bg-intro-triangle-desktop.svg");
-      height: 67px;
-      width: 100%;
-      bottom: -11px;
-      left: 0;
-      transform: translateX(0%);
-      background-size: 100%;
-      background-repeat: no-repeat;
     }
 
     @media (min-resolution: 2dppx) {
@@ -126,8 +110,8 @@
     &--form,
     &--photo {
       padding-top: 100px;
-      padding-bottom: 123px;
-      height: 78px;
+      padding-bottom: 124px;
+      height: 76px;
       text-align: center;
       background-position: 50% 100%;
       background-size: cover;

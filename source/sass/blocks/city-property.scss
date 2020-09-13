@@ -4,7 +4,7 @@
   line-height: 27px;
   text-transform: uppercase;
   margin: 0 auto;
-  padding-top: 31px;
+  padding-top: 33px;
   text-align: center;
   width: 260px;
 }
@@ -48,7 +48,7 @@
 
   &--gray-bg {
     background-color: $basic-grey;
-    padding: 26px 20px 0;
+    padding: 40px 20px 0;
 
     &::after {
       content: "";
@@ -78,7 +78,7 @@
   margin-top: -14px;
 
   &--bridge {
-    padding-top: 39px;
+    padding-top: 53px;
   }
 
   &--gray-bg {

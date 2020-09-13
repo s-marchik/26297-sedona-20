@@ -95,6 +95,10 @@
       margin: 0 auto;
       margin-bottom: 24px;
     }
+
+    &--success {
+      margin-top: 25px;
+    }
   }
 
   .popup__text {
@@ -102,6 +106,10 @@
 
     &--error {
       width: 278px;
+    }
+
+    &--success {
+      margin-bottom: 45px;
     }
   }
 
@@ -127,13 +135,21 @@
     width: 640px;
   }
 
-  .popup-success__wrapper {
-    padding: 47px 0;
+  .popup__success-wrapper {
+      background-color: $form-input-grey;
+      padding: 44px 91px;
   }
 
   .popup__button--close {
     font-size: 21px;
     line-height: 26px;
     width: 458px;
+  }
+}
+@media (min-width: $desktop-width) {
+  .popup--error {
+    left: 441px;
+    top: 281px;
+    padding-top: 48px;
   }
 }

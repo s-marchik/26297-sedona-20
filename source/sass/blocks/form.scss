@@ -32,7 +32,7 @@
   }
 
   &--checkbox {
-    padding: 87px 19px 27px;
+    padding: 87px 19px 25px;
   }
 
   &--comments {
@@ -81,7 +81,7 @@
   }
 
   &--checkbox {
-    margin-bottom: 26px;
+    margin-bottom: 24px;
     flex-direction: row;
   }
 
@@ -257,7 +257,7 @@
   svg {
     position: absolute;
     right: 1px;
-    padding: 20px 19px 22px 21px;
+    padding: 21px 20px 21px 22px;
     background-color: $input-bg-contact;
   }
 }
@@ -270,6 +270,7 @@
   width: calc(100% - 40px);
   height: 150px;
   padding: 12px 20px 0;
+  resize: vertical;
 }
 
 .form__submit {
@@ -319,7 +320,7 @@
     &--contact {
       order: 3;
       width: 100%;
-      margin-top: 82px;
+      margin-top: 59px;
       border-top: 1px solid $form-border;
       padding-top: 35px;
       padding-bottom: 78px;
@@ -341,15 +342,15 @@
       display: flex;
       flex-direction: row;
       border-top: 1px solid $form-border;
-      padding-top: 70px;
-      padding-bottom: 46px;
+      padding-top: 68px;
+      padding-bottom: 48px;
     }
 
     &--comments {
       order: 5;
       border-top: 1px solid $form-border;
       padding-top: 70px;
-      padding-bottom: 51px;
+      padding-bottom: 50px;
     }
   }
 
@@ -365,17 +366,9 @@
       width: 100%;
     }
 
-    &:last-child {
-      padding-bottom: 0;
-    }
-
     &--checkbox {
       width: 50%;
-      margin-bottom: 35px;
-
-      &:last-child {
-        margin-bottom: 0;
-      }
+      margin-bottom: 33px;
     }
 
     &--radio {
@@ -416,7 +409,7 @@
     }
 
     &--comments {
-      top: -10px;
+      top: -11px;
       left: 50%;
       transform: translateX(-50%);
       background: $basic-white;
@@ -488,14 +481,14 @@
   .form__block {
     padding: 0 120px;
     margin-top: 58px;
-    margin-bottom: 65px;
+    margin-bottom: 63px;
   }
 
   .form__fieldset {
     &--contact {
       padding-top: 88px;
       padding-bottom: 53px;
-      margin-top: 80px;
+      margin-top: 58px;
     }
 
     &--radio {
@@ -503,8 +496,8 @@
     }
 
     &--checkbox {
-      padding-top: 71px;
-      padding-bottom: 43px;
+      padding-top: 69px;
+      padding-bottom: 45px;
     }
   }
 
@@ -550,11 +543,11 @@
     }
 
     &--contact-tel {
-      margin: 0 16px 0 0;
+      margin: 4px 16px 0 0;
     }
 
     &--contact-email {
-      margin: 2px 18px 0 0;
+      margin: 4px 18px 0 0;
       white-space: nowrap;
     }
   }
@@ -571,7 +564,7 @@
     }
 
     &--checkbox {
-      margin-right: 27px;
+      margin-right: 24px;
       margin-left: 0;
     }
   }

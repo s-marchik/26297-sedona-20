@@ -3,9 +3,23 @@
   background-color: $basic-blue;
   background-repeat: no-repeat;
   padding-top: 88px;
-  padding-bottom: 78px;
+  padding-bottom: 76px;
   text-align: center;
   background-position: center center;
+  position: relative;
+
+  &::after {
+    position: absolute;
+    content: "";
+    background-image: url("../img/bg-intro-triangle-mobile.svg");
+    width: 100%;
+    height: 50%;
+    bottom: 0;
+    left: 0;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  }
 
   @media (min-resolution: 2dppx) {
     background-image: url("../../img/bg-back-mobile@2x.jpg");
@@ -13,7 +27,7 @@
   }
 
   &--form {
-    padding-top: 53px;
+    padding-top: 51px;
     padding-bottom: 77px;
     height: 28px;
     text-align: center;
@@ -23,7 +37,7 @@
   &--photo {
     padding-top: 51px;
     padding-bottom: 67px;
-    height: 40px;
+    height: 38px;
     text-align: center;
     background-position: 50% 100%;
   }
@@ -42,6 +56,9 @@
     text-align: center;
     background-position: center center;
 
+    &::after {
+      background-image: url("../img/bg-intro-triangle-tablet.svg");
+    }
 
     @media (min-resolution: 2dppx) {
       background-image: url("../../img/bg-back-tablet@2x.jpg");
@@ -55,8 +72,8 @@
     &--form,
     &--photo {
       padding-top: 94px;
-      padding-bottom: 118px;
-      height: 78px;
+      padding-bottom: 120px;
+      height: 76px;
       text-align: center;
       background-position: 50% 100%;
       background-size: cover;
@@ -75,12 +92,16 @@
     background-image: url("../img/bg-back-desktop@1x.jpg");
     background-color: $basic-blue;
     padding-top: 77px;
-    padding-bottom: 88px;
+    padding-bottom: 87px;
     height: 353px;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
     background-position: center center;
+
+    &::after {
+      background-image: url("../img/bg-intro-triangle-desktop.svg");
+    }
 
     @media (min-resolution: 2dppx) {
       background-image: url("../../img/bg-back-desktop@2x.jpg");
@@ -89,8 +110,8 @@
     &--form,
     &--photo {
       padding-top: 100px;
-      padding-bottom: 123px;
-      height: 78px;
+      padding-bottom: 124px;
+      height: 76px;
       text-align: center;
       background-position: 50% 100%;
       background-size: cover;

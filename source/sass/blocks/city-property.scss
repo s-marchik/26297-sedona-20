@@ -4,7 +4,7 @@
   line-height: 27px;
   text-transform: uppercase;
   margin: 0 auto;
-  padding-top: 31px;
+  padding-top: 33px;
   text-align: center;
   width: 260px;
 }
@@ -17,6 +17,19 @@
   padding-top: 29px;
   text-align: center;
   width: 280px;
+  position: relative;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 93px;
+    left: -20px;
+    height: 37px;
+    width: 100vw;
+    background-image: url("../img/bg-triangle.svg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+  }
 }
 
 .city-property__wrapper {
@@ -35,7 +48,7 @@
 
   &--gray-bg {
     background-color: $basic-grey;
-    padding: 26px 20px 0;
+    padding: 40px 20px 0;
 
     &::after {
       content: "";
@@ -60,11 +73,12 @@
   color: $basic-white;
   text-transform: uppercase;
   text-align: center;
-  padding-top: 35px;
+  padding-top: 49px;
   margin: 0 auto;
+  margin-top: -14px;
 
   &--bridge {
-    padding-top: 39px;
+    padding-top: 53px;
   }
 
   &--gray-bg {
@@ -196,6 +210,7 @@
       display: flex;
       flex-wrap: wrap;
       grid-column: 1 / -1;
+      position: relative;
     }
 
     &--gray-bg {

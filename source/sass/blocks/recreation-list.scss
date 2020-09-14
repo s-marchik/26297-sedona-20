@@ -49,7 +49,7 @@
   }
 
   &--present {
-    left: 2px;
+    left: -2px;
     top: -10px;
     background-image: url("../img/icon-gift.svg");
   }
@@ -153,10 +153,6 @@
   .recreation-list__icon {
     &--home {
       margin-left: -7px;
-    }
-
-    &--present {
-      margin-right: 8px;
     }
 
     &--food {

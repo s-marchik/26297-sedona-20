@@ -43,9 +43,5 @@
   ],
   "engines": {
     "node": "12.18.2"
-  },
-  "dependencies": {
-    "html": "^1.0.0",
-    "npx": "^10.2.2"
   }
 }

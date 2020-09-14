@@ -1,9 +1,9 @@
 .recreation-list {
   background-color: $basic-white;
-  padding-top: 17px;
-  padding-bottom: 9px;
-  padding-left: 19px;
+  padding: 17px 0 9px 19px;
+  margin: 0;
   text-align: left;
+  list-style-type: none;
 }
 
 .recreation-list__item {
@@ -42,27 +42,25 @@
   top: -9px;
   background-size: contain;
   background-position: bottom right;
-  fill: $basic-blue;
 
   &--home {
     left: 2px;
+    background-image: url("../img/icon-house.svg");
   }
 
   &--present {
     left: 2px;
     top: -10px;
+    background-image: url("../img/icon-gift.svg");
   }
 
   &--food {
     top: -6px;
     left: -1px;
-  }
-
-  svg {
-    width: 40px;
-    height: 37px;
+    background-image: url("../img/icon-burger.svg");
   }
 }
+
 
 @media (min-width: $tablet-width) {
   .recreation-list {

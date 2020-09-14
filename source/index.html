@@ -47,7 +47,7 @@
   </svg>
   <div class="page__container">
     <header class="page-header">
-      <a class="page-header__logo" href="index.html">
+      <a class="page-header__logo">
         <picture>
           <source media="(min-width: 1200px)" srcset="img/logo-sedona-desktop.svg">
           <source media="(min-width: 768px)" srcset="img/logo-sedona-tablet.svg">
@@ -62,28 +62,28 @@
           <button class="main-nav__close" type="button">
             <span class="visually-hidden">Закрыть меню</span>
           </button>
-        <ul class="main-nav__list">
-          <li class="main-nav__item main-nav__item--active">
-            <a class="main-nav__link">
-              Главная
-            </a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="photo.html">
-              Фото и видео
-            </a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="form.html">
-              Форма отзыва
-            </a>
-          </li>
-          <li class="main-nav__item">
-            <a class="main-nav__link" href="https://htmlacademy.ru">
-              html academy
-            </a>
-          </li>
-        </ul>
+          <ul class="main-nav__list">
+            <li class="main-nav__item main-nav__item--active">
+              <a class="main-nav__link">
+                Главная
+              </a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="photo.html">
+                Фото и видео
+              </a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="form.html">
+                Форма отзыва
+              </a>
+            </li>
+            <li class="main-nav__item">
+              <a class="main-nav__link" href="https://htmlacademy.ru">
+                html academy
+              </a>
+            </li>
+          </ul>
         </div>
       </nav>
     </header>
@@ -96,7 +96,7 @@
         <h2 class="city-property__page-title">Седона — небольшой городок в Аризоне, заслуживающий большего!</h2>
         <p class="city-property__page-text">Рассмотрим 5 причин, по которым Седона круче, чем гранд каньон!</p>
         <div class="city-property__container">
-          <div class="city-property__wrapper city-property__wrapper--blue-bg">
+          <section class="city-property__wrapper city-property__wrapper--blue-bg">
             <div class="city-property__folder">
               <h3 class="city-property__title">Настоящий городок</h3>
               <span class="city-property__number">№1</span>
@@ -110,37 +110,25 @@
               <source media="(min-width: 768px)"  srcset="img/main-city-tablet@1x.jpg, img/main-city-tablet@2x.jpg 2x">
               <img class="city-property__img" src="img/main-city-mobile@1x.jpg" srcset="img/main-city-mobile@2x.jpg 2x" width="320" height="260" alt= "Настоящий городок">
             </picture>
-                <div class="recreation-list">
-              <div class="recreation-list__item">
-                <span class="recreation-list__icon recreation-list__icon--home">
-                  <svg width="75px" height="73px">
-                    <use xlink:href="img/sprite.svg#icon-house"></use>
-                  </svg>
-                </span>
+            <ul class="recreation-list">
+              <li class="recreation-list__item">
+                <span class="recreation-list__icon recreation-list__icon--home"></span>
                 <h3 class="recreation-list__title">Жилье</h3>
                 <p class="recreation-list__text">Рекомендуем пожить в настоящем мотеле, все как в кино!</p>
-              </div>
-              <div class="recreation-list__item">
-                <span class="recreation-list__icon recreation-list__icon--present">
-                  <svg width="63px" height="75px">
-                    <use xlink:href="img/sprite.svg#icon-gift"></use>
-                  </svg>
-                </span>
+              </li>
+              <li class="recreation-list__item">
+                <span class="recreation-list__icon recreation-list__icon--present"></span>
                 <h3 class="recreation-list__title">Сувениры</h3>
                 <p class="recreation-list__text">Не только китайского, <br>но и местного производства!</p>
-              </div>
-              <div class="recreation-list__item">
-                <span class="recreation-list__icon recreation-list__icon--food">
-                  <svg width="76px" height="67px">
-                    <use xlink:href="img/sprite.svg#icon-burger"></use>
-                  </svg>
-                </span>
+              </li>
+              <li class="recreation-list__item">
+                <span class="recreation-list__icon recreation-list__icon--food"></span>
                 <h3 class="recreation-list__title">Еда</h3>
                 <p class="recreation-list__text recreation-list__text--food">Всегда заказывайте фирменный бургер, вы не разочаруетесь!</p>
-              </div>
-            </div>
-          </div>
-          <div class="city-property__wrapper city-property__wrapper--bridge">
+              </li>
+            </ul>
+          </section>
+          <section class="city-property__wrapper city-property__wrapper--bridge">
             <picture class="city-property__pictures-folder">
               <source type="image/webp" media="(min-width: 1200px)" srcset="img/main-bridge-desktop@1x.webp, img/main-bridge-desktop@2x.webp 2x">
               <source type="image/webp" media="(min-width: 768px)" srcset="img/main-bridge-tablet@1x.webp, img/main-bridge-tablet@2x.webp 2x">
@@ -150,26 +138,26 @@
               <img class="city-property__img" src="img/photo-bridge-mobile@1x.jpg" srcset="img/main-bridge-mobile@2x.jpg 2x" width="320" height="260" alt="Мост Дьявола">
             </picture>
             <div class="city-property__folder">
-              <h3 class="city-property__title city-property__title--bridge">Там есть мост дьявола</h3>
+              <h3 class="city-property__title city-property__title--bridge">Там есть <br>мост дьявола</h3>
               <span class="city-property__number city-property__number--bridge">№2</span>
               <p class="city-property__text city-property__text--bridge">Да, по нему можно пройти! Если вы осмелитесь,конечно</p>
             </div>
-          </div>
-          <div class="city-property__wrapper city-property__wrapper--gray-bg">
-            <h4 class="city-property__title city-property__title--gray-bg">Небольшая площадь</h4>
+          </section>
+          <section class="city-property__wrapper city-property__wrapper--gray-bg">
+            <h3 class="city-property__title city-property__title--gray-bg">Небольшая площадь</h3>
             <span class="city-property__number city-property__number--gray-bg">№3</span>
             <p class="city-property__text city-property__text--gray-bg">все интересные места находятся очень близко</p>
-          </div>
-          <div class="city-property__wrapper city-property__wrapper--gray-bg">
-            <h4 class="city-property__title city-property__title--gray-bg">Красивая дорога</h4>
+          </section>
+          <section class="city-property__wrapper city-property__wrapper--gray-bg">
+            <h3 class="city-property__title city-property__title--gray-bg">Красивая дорога</h3>
             <span class="city-property__number city-property__number--gray-bg">№4</span>
             <p class="city-property__text city-property__text--gray-bg-small">ехать в седону из лас-вегаса совсем не скучно!</p>
-          </div>
-          <div class="city-property__wrapper city-property__wrapper--gray-bg">
-            <h4 class="city-property__title city-property__title--gray-bg">Мало туристов</h4>
+          </section>
+          <section class="city-property__wrapper city-property__wrapper--gray-bg">
+            <h3 class="city-property__title city-property__title--gray-bg">Мало туристов</h3>
             <span class="city-property__number city-property__number--gray-bg">№5</span>
             <p class="city-property__text city-property__text--gray-bg">большинство едет в гранд каньон и толпится там</p>
-          </div>
+          </section>
         </div>
       </section>
       <section class="search">

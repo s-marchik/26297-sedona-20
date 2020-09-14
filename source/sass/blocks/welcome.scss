@@ -23,7 +23,7 @@
   }
 
   @media (min-resolution: 2dppx) {
-    background-image: url("../../img/bg-back-mobile@2x.jpg");
+    background-image: url("../img/bg-back-mobile@2x.jpg");
     background-size: 764px auto;
   }
 
@@ -62,7 +62,7 @@
     }
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../../img/bg-back-tablet@2x.jpg");
+      background-image: url("../img/bg-back-tablet@2x.jpg");
     }
 
     img {
@@ -105,7 +105,7 @@
     }
 
     @media (min-resolution: 2dppx) {
-      background-image: url("../../img/bg-back-desktop@2x.jpg");
+      background-image: url("../img/bg-back-desktop@2x.jpg");
     }
 
     &--form,

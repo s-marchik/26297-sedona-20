@@ -84,6 +84,10 @@
 
   &--bridge {
     padding-top: 53px;
+
+    & br {
+      display: none;
+    }
   }
 
   &--gray-bg {
@@ -258,8 +262,12 @@
     }
 
     &--bridge {
-      width: 150px;
+      width: 151px;
       padding-top: 43px;
+
+      & br {
+        display: inline;
+      }
     }
   }
 

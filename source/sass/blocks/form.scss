@@ -169,6 +169,17 @@
   }
 
   &--first-name {
+    width: 230px;
+    flex-grow: 1;
+  }
+
+  &--second-name {
+    width: 192px;
+    flex-grow: 1;
+  }
+
+  &--last-name {
+    width: 194px;
     flex-grow: 1;
   }
 
@@ -578,6 +589,7 @@
     flex-wrap: nowrap;
     margin: 0;
     justify-content: space-between;
+    width: 100%;
   }
 
   .form__hidden {

@@ -9,6 +9,8 @@ const csso = require("gulp-csso");
 const rename = require("gulp-rename");
 const imagemin = require("gulp-imagemin");
 const webp = require("gulp-webp");
+const posthtml = require("gulp-posthtml");
+const include = require("posthtml-include");
 const svgstore = require("gulp-svgstore");
 const del = require("del");
 
@@ -107,7 +109,6 @@ const clean = () => {
 
 exports.clean = clean;
 
-
 // Watcher
 
 const watcher = () => {
@@ -123,6 +124,7 @@ exports.default = gulp.series(styles, server, watcher);
 
 const html = () => {
   return gulp.src(["source/**/*.html"], { base: "source" })
+    .pipe(posthtml([include({ root: "build" })]))
     .pipe(gulp.dest("build"));
 };
 
